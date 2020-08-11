@@ -50,3 +50,41 @@ $('.brands-carousel').owlCarousel({
         }
     }
 });
+
+
+//Clients Slider
+$('.testimonial-carousel').owlCarousel({
+    loop: true,
+    item: 3,
+    stagePadding: 30,
+    margin: 40,
+    nav: false,
+    center: false,
+    dots: false,
+    dotsData: false,
+    dotsEach: false,
+    autoplayHoverPause: true,
+    smartSpeed: 1000,
+    fluidSpeed: 100,
+    slideSpeed: 5000,
+    rewind: true,
+    mouseDrag: true,
+    touchDarg: true,
+    lazyload: true,
+    autoplay: false,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        400: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 2
+        }
+    }
+});
