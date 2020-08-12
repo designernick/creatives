@@ -1,0 +1,151 @@
+                @media only screen and (max-width: 1040px) {}
+                
+                @media screen and (max-width: 992px) {
+                    .menu_container {
+                        display: block !important;
+                        padding-right: 1.5rem;
+                    }
+                    li.nav-item:last-child {
+                        padding-bottom: 2rem;
+                    }
+                    #ourServices .ourService_outer .service_col_2 {
+                        padding: 0% 1rem;
+                    }
+                    #ourServices .service_col_content {
+                        padding: 0% 1rem 0px;
+                    }
+                    #qualityWork #v-pills-tab_category {
+                        padding: 1rem 1rem;
+                    }
+                    #qualityWork .quality_work_slider .carousel-control-next-icon {
+                        margin-left: 70px;
+                    }
+                    #qualityWork .quality_work_slider .carousel-control-prev-icon {
+                        margin-right: 70px;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
+                    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
+                        width: unset;
+                        max-width: unset;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:after {
+                        content: '';
+                        position: absolute;
+                        bottom: -20px;
+                        top: 100%;
+                        right: auto;
+                        left: 40%;
+                        border-top: 14px solid #fa09a7;
+                        border-left: 14px solid transparent;
+                        border-right: 14px solid transparent;
+                        height: 20px;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link {
+                        text-align: center;
+                    }
+                }
+                
+                @media only screen and (max-width: 768px) {
+                    #seeMoreWork .quality_head h2 {
+                        width: 100%;
+                    }
+                    #Banner {
+                        padding-top: 45px;
+                    }
+                    .header_getdemo {
+                        margin-right: 0px;
+                    }
+                    .btn_getfreedemo {
+                        padding: 10px 10px;
+                    }
+                    #ExperienceTrue .expTrue_head .dashed_line01 {
+                        right: -20px;
+                        top: -20px;
+                    }
+                    #ExperienceTrue .expTrue_head .dashed_line02 {
+                        left: -20px;
+                        top: -20px;
+                    }
+                    #ExperienceTrue .expT_content {
+                        padding-bottom: 0rem;
+                    }
+                    #qualityWork #v-pills-tab_category {
+                        display: contents;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork {
+                        padding: 0rem 0;
+                    }
+                    #seeMoreWork #v-pills-tabContent {
+                        margin-top: 0rem;
+                    }
+                    #seeMoreWork .my-column {
+                        -ms-flex: 50%;
+                        flex: 50%;
+                        max-width: 50%;
+                    }
+                    .test_item_left .triangle02 {
+                        right: 95px;
+                        top: 100px;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
+                    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
+                        width: unset;
+                        max-width: unset;
+                    }
+                }
+                
+                @media only screen and (max-width: 567px) {
+                    #Banner .banner_inner {
+                        height: 680px;
+                    }
+                    #Brands {
+                        padding: 3rem 0 2rem 0;
+                    }
+                    #Brands .brands_content {
+                        padding: 2rem 0.5rem;
+                    }
+                    .expT_content .expT_box_common h3 {
+                        font-size: 35px;
+                    }
+                    #joinUs {
+                        padding-bottom: 4rem;
+                    }
+                    #joinUs .btn_hireus,
+                    #joinUs .btnGetfreedemo {
+                        margin-bottom: 2rem;
+                    }
+                    .test_item_left .triangle02 {
+                        right: 100px;
+                        top: 100px;
+                    }
+                    #Brands .brands-carousel .owl-nav .owl-next {
+                        right: -45px;
+                        padding: 0 12px !important;
+                    }
+                    #Brands .brands-carousel .owl-nav .owl-prev {
+                        left: -45px;
+                        padding: 0 12px !important;
+                    }
+                    .testimonial_content {
+                        padding: 1rem 0rem;
+                    }
+                    .testimonial-carousel .item .container .row>div {
+                        padding: 0;
+                    }
+                }
+                
+                @media only screen and (max-width: 477px) {
+                    #joinUs .btn_hireus {
+                        margin: 0px auto;
+                        margin-bottom: 2rem;
+                    }
+                    .test_item_left .triangle02 {
+                        right: 45px;
+                        top: 125px;
+                    }
+                    .testimonial-carousel .item .testimonial_content .more {
+                        float: unset;
+                    }
+                }
+                
+                @media only screen and (max-width: 360px) {}

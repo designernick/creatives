@@ -100,12 +100,6 @@ h6 {
     display: none !important;
 }
 
-@media screen and (max-width: 992px) {
-    .menu_container {
-        display: block !important;
-    }
-}
-
 nav {
     transition: all 0.5s;
     z-index: 0;
@@ -310,7 +304,7 @@ nav.navbar.shrink ul li:hover a.nav-link {
     background: #fff;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
 }
 
 header nav ul li button {
@@ -539,7 +533,7 @@ p.banner_inner_parah {
 /* BRANDS Starts */
 
 #Brands {
-    padding: 1rem 0;
+    padding: 3rem 0 2rem 0;
     color: #FA09A7;
 }
 
@@ -694,11 +688,9 @@ p.banner_inner_parah {
 /* OUR SERVICES Starts */
 
 #ourServices {
-    color: #FA09A7;
-}
-
-#ourServices {
     padding: 2rem 0;
+    color: #FA09A7;
+    padding-bottom: 0;
 }
 
 #ourServices .ourService_outer {
@@ -744,6 +736,7 @@ p.banner_inner_parah {
     margin-bottom: 4rem;
     transition: all 0.2s ease-in-out;
     background: #ffffff;
+    overflow: hidden;
 }
 
 #ourServices .service_box:first-child {
@@ -757,7 +750,7 @@ p.banner_inner_parah {
 
 #ourServices .service_col_2 .service_box:last-child img {
     position: relative;
-    margin-left: 60px;
+    margin-left: 43px;
     width: 100%;
     max-width: 185px;
     margin-top: -20px;
@@ -928,21 +921,25 @@ p.banner_inner_parah {
 #qualityWork .quality_work_slider .carousel-control-next-icon {
     background-image: url(../img/arrow_next.png);
     margin-left: 50px;
+    position: absolute;
+    z-index: 99;
     transition: all 0.2s ease-in;
 }
 
 #qualityWork .quality_work_slider .carousel-control-next:hover .carousel-control-next-icon {
-    margin-left: 70px;
+    margin-left: 75px;
 }
 
 #qualityWork .quality_work_slider .carousel-control-prev-icon {
     background-image: url(../img/arrow_prev.png);
     margin-right: 50px;
+    position: absolute;
+    z-index: 99;
     transition: all 0.2s ease-in;
 }
 
 #qualityWork .quality_work_slider .carousel-control-prev:hover .carousel-control-prev-icon {
-    margin-right: 70px;
+    margin-right: 75px;
 }
 
 #qualityWork .quality_work_slider .carousel-item img {
@@ -1040,9 +1037,9 @@ p.banner_inner_parah {
 #seeMoreWork .my-column {
     -ms-flex: 33.30%;
     flex: 33.30%;
-    max-width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    max-width: 50%;
+    padding: 0.5rem;
+    /* margin-bottom: 1rem; */
 }
 
 #seeMoreWork .my-column img {
@@ -1527,23 +1524,23 @@ ul.footer_cproducts {
 
 @keyframes flip {
     0% {
-        transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+        transform: perspective(400px) translateZ(0px) rotateY(0) scale(1);
         animation-timing-function: ease-out;
     }
     40% {
-        transform: perspective(400px) translateZ(150px) rotateY(0deg) scale(1);
+        transform: perspective(400px) translateZ(0px) rotateY(0deg) scale(1);
         animation-timing-function: ease-out;
     }
     50% {
-        transform: perspective(400px) translateZ(150px) rotateY(0deg) scale(1);
+        transform: perspective(400px) translateZ(0px) rotateY(0deg) scale(1);
         animation-timing-function: ease-in;
     }
     80% {
-        transform: perspective(400px) translateZ(0) rotateY(0deg) scale(.95);
+        transform: perspective(400px) translateZ(0px) rotateY(0deg) scale(.95);
         animation-timing-function: ease-in;
     }
     100% {
-        transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+        transform: perspective(400px) translateZ(0px) rotateY(360deg) scale(1);
         animation-timing-function: ease-in;
     }
 }

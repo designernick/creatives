@@ -12,6 +12,7 @@ $(window).on("scroll", function() {
     }
 });
 
+$("#v-pills-tab_seeMoreWork").removeClass("flex-column");
 
 // <!-- script for new menu btn -->
 function myFunction(x) {
@@ -81,7 +82,7 @@ $('.testimonial-carousel').owlCarousel({
             items: 1
         },
         600: {
-            items: 2
+            items: 1
         },
         1000: {
             items: 2
