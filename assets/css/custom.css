@@ -153,6 +153,7 @@ ul.navbar-nav li {
 }
 
 .nav-item .nav-link {
+    display: inline-block;
     border-bottom: 1.5px dashed transparent;
     padding: 0 0.5rem!important;
     transition: all 0.2s ease-in;
@@ -608,6 +609,7 @@ p.banner_inner_parah {
     padding: 0 14px !important;
     bottom: 64px !important;
     transition: all 0.3s ease-in;
+    border-radius: 6px;
 }
 
 #Brands .brands-carousel .owl-nav .owl-next {
@@ -617,11 +619,13 @@ p.banner_inner_parah {
     padding: 0 14px !important;
     bottom: 64px !important;
     transition: all 0.2s ease-in;
+    border-radius: 6px;
 }
 
 #Brands .brands-carousel .owl-nav .owl-next:hover,
 #Brands .brands-carousel .owl-nav .owl-prev:hover {
     background: #FA09A7;
+    color: #fff;
 }
 
 #Brands .brands-carousel .owl-nav .owl-next:focus,
@@ -809,13 +813,13 @@ p.banner_inner_parah {
     color: #707070;
 }
 
-#ourServices .service_col_content .service_keypoint h6 {
+#ourServices .service_col_content .service_keypoint h5 {
     margin-left: 0.5rem;
     margin-bottom: 1.2rem;
 }
 
 #ourServices .service_col_content .service_keypoint ul {
-    padding: 0;
+    padding-left: 10px;
     margin: 0;
 }
 
@@ -1759,7 +1763,7 @@ ul#pills-tab_PC .show>.nav-link {
     display: inline-block;
 }
 
-.featured_desc .featured_keypoint h6 {
+.featured_desc .featured_keypoint h5 {
     padding-left: 12px;
     margin-bottom: 1.2rem;
 }

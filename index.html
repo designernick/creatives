@@ -23,7 +23,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -38,12 +38,12 @@
             <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
                 <div class="container">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-2">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" aria-label="Certifyd Creatives" href="index.html">
                             <img src="assets/images/logo3.jpg" class="img-fluid img-responsive" alt="Creatives" title="Creatives" />
                         </a>
                     </div>
                     <!-- new menu btn-->
-                    <div class="menu_container navbar-toggler" role="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" onclick="myFunction(this)">
+                    <div class="menu_container navbar-toggler" role="button" name="menu_btn" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" onclick="myFunction(this)">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
@@ -53,22 +53,22 @@
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a href="index.html" class="nav-link smooth">Home</a>
+                                    <a href="index.html" aria-label="Home" class="nav-link smooth">Home</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="portfolio.html" class="nav-link smooth">Portfolio</a>
+                                    <a href="portfolio.html" aria-label="Portfolio" class="nav-link smooth">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link smooth">Pricing</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link smooth">FAQs</a>
+                                    <a href="#" aria-label="Pricing" class="nav-link smooth">Pricing</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link smooth">Contact Us</a>
+                                    <a href="#" aria-label="FAQs" class="nav-link smooth">FAQs</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" aria-label="Contact us" class="nav-link smooth">Contact Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <button onclick="window.location.href='#'" class="btn btn-primary btn_hireus">Hire Us</button>
@@ -111,7 +111,8 @@
                         </div>
 
                         <div class="header_getdemo">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your email">
+                            <label for="header_FreeDemoinput"></label>
+                            <input type="text" name="header_FreeDemoinput" class="form-control" id="header_FreeDemoinput" placeholder="Enter your email">
                             <button class="btn btn_getfreedemo">Get a FREE Demo</button>
                         </div>
 
@@ -262,7 +263,7 @@
                                 </div>
                                 <div class="service_content">
                                     <div class="service_keypoint">
-                                        <h6>Keypoints</h6>
+                                        <h5>Keypoints</h5>
                                         <ul>
                                             <li><i class="fas fa-check"></i>Wireframes for Project Workflow.</li>
                                             <li><i class="fas fa-check"></i>Mockups/UIs for every projects.</li>
@@ -300,11 +301,11 @@
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 pl-2">
                     <div class="nav flex-column nav-pills" data-aos="fade-up" id="v-pills-tab_seeMoreWork" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="v-pills-sWeb-tab" data-toggle="pill" href="#v-pills-sWeb" role="tab" aria-controls="v-pills-sWeb" aria-selected="true">Web Design</a>
-                        <a class="nav-link" id="v-pills-sApp-tab" data-toggle="pill" href="#v-pills-sApp" role="tab" aria-controls="v-pills-sApp" aria-selected="false">App Design</a>
-                        <a class="nav-link" id="v-pills-sbuzz-tab" data-toggle="pill" href="#v-pills-sbuzz" role="tab" aria-controls="v-pills-sbuzz" aria-selected="false">Business & Ads</a>
-                        <a class="nav-link" id="v-pills-sArt-tab" data-toggle="pill" href="#v-pills-sArt" role="tab" aria-controls="v-pills-sArt" aria-selected="false">Art & Illustrations</a>
-                        <a class="nav-link" id="v-pills-sLogo-tab" data-toggle="pill" href="#v-pills-sLogo" role="tab" aria-controls="v-pills-sLogo" aria-selected="false">Logo Design</a>
+                        <a class="nav-link active" aria-label="allwork" id="v-pills-sWeb-tab" data-toggle="pill" href="#v-pills-sWeb" role="tab" aria-controls="v-pills-sWeb" aria-selected="true">Web Design</a>
+                        <a class="nav-link" aria-label="app work" id="v-pills-sApp-tab" data-toggle="pill" href="#v-pills-sApp" role="tab" aria-controls="v-pills-sApp" aria-selected="false">App Design</a>
+                        <a class="nav-link" aria-label="web work" id="v-pills-sbuzz-tab" data-toggle="pill" href="#v-pills-sbuzz" role="tab" aria-controls="v-pills-sbuzz" aria-selected="false">Business & Ads</a>
+                        <a class="nav-link" aria-label="art work" id="v-pills-sArt-tab" data-toggle="pill" href="#v-pills-sArt" role="tab" aria-controls="v-pills-sArt" aria-selected="false">Art & Illustrations</a>
+                        <a class="nav-link" aria-label="logo work" id="v-pills-sLogo-tab" data-toggle="pill" href="#v-pills-sLogo" role="tab" aria-controls="v-pills-sLogo" aria-selected="false">Logo Design</a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-12 col-sm-12 col-12 ">
@@ -436,11 +437,11 @@
                     </div>
 
                     <div class="nav flex-column nav-pills" id="v-pills-tab_category" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="v-pills-logo-tab" data-toggle="pill" href="#v-pills-logo" role="tab" aria-controls="v-pills-logo" aria-selected="true">Logo Design</a>
-                        <a class="nav-link" id="v-pills-web-tab" data-toggle="pill" href="#v-pills-web" role="tab" aria-controls="v-pills-web" aria-selected="false">Web Design</a>
-                        <a class="nav-link" id="v-pills-app-tab" data-toggle="pill" href="#v-pills-app" role="tab" aria-controls="v-pills-app" aria-selected="false">App Design</a>
-                        <a class="nav-link" id="v-pills-art-tab" data-toggle="pill" href="#v-pills-art" role="tab" aria-controls="v-pills-art" aria-selected="false">Art & Illustration</a>
-                        <a class="nav-link" id="v-pills-business-tab" data-toggle="pill" href="#v-pills-business" role="tab" aria-controls="v-pills-business" aria-selected="false">Business Stationary</a>
+                        <a class="nav-link active" aria-label="trylogo" id="v-pills-logo-tab" data-toggle="pill" href="#v-pills-logo" role="tab" aria-controls="v-pills-logo" aria-selected="true">Logo Design</a>
+                        <a class="nav-link" id="v-pills-web-tab" aria-label="tryweb" data-toggle="pill" href="#v-pills-web" role="tab" aria-controls="v-pills-web" aria-selected="false">Web Design</a>
+                        <a class="nav-link" id="v-pills-app-tab" aria-label="tryapp" data-toggle="pill" href="#v-pills-app" role="tab" aria-controls="v-pills-app" aria-selected="false">App Design</a>
+                        <a class="nav-link" id="v-pills-art-tab" aria-label="tryart" data-toggle="pill" href="#v-pills-art" role="tab" aria-controls="v-pills-art" aria-selected="false">Art & Illustration</a>
+                        <a class="nav-link" id="v-pills-business-tab" aria-label="trybusiness" data-toggle="pill" href="#v-pills-business" role="tab" aria-controls="v-pills-business" aria-selected="false">Business Stationary</a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 col-12">
@@ -642,9 +643,9 @@
                                                 <p class="client_desig">Journalist</p>
                                             </div>
                                             <div class="more">
-                                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a href=""><i class="fab fa-twitter"></i></a>
-                                                <a href=""><i class="fab fa-linkedin-in"></i> </a>
+                                                <a href="" aria-label="Certifyd Facebook"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="" aria-label="Certifyd Twitter"><i class="fab fa-twitter"></i></a>
+                                                <a href="" aria-label="Certifyd Linkedin"><i class="fab fa-linkedin-in"></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -673,9 +674,9 @@
                                                 <p class="client_desig">Businessman</p>
                                             </div>
                                             <div class="more">
-                                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a href=""><i class="fab fa-twitter"></i></a>
-                                                <a href=""><i class="fab fa-linkedin-in"></i> </a>
+                                                <a href="" aria-label="Certifyd Facebook"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="" aria-label="Certifyd Facebook"><i class="fab fa-twitter"></i></a>
+                                                <a href="" aria-label="Certifyd Facebook"><i class="fab fa-linkedin-in"></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -704,9 +705,9 @@
                                                 <p class="client_desig">Journalist</p>
                                             </div>
                                             <div class="more">
-                                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a href=""><i class="fab fa-twitter"></i></a>
-                                                <a href=""><i class="fab fa-linkedin-in"></i> </a>
+                                                <a href="" aria-label="Certifyd Facebook"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="" aria-label="Certifyd Facebook"><i class="fab fa-twitter"></i></a>
+                                                <a href="" aria-label="Certifyd Facebook"><i class="fab fa-linkedin-in"></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -730,8 +731,8 @@
         <img src="assets/img/wheel_01.png" class="wheel01" alt="certifydCreatives">
         <img src="assets/img/ellipse_02.png" class="ellipse01" alt="certifydCreatives">
         <img src="assets/img/ellipse_03.png" class="ellipse02" alt="certifydCreatives">
-        <div class="container-fluid" data-aos="fade-up">
-            <div class="row pb-4">
+        <div class="container-fluid">
+            <div class="row pb-4" data-aos="fade-up">
 
                 <div class="col-lg-2 col-md-2 col-sm-12 col-12">
                     <img src="assets/images/logo_4.png" alt="" class="img-fluid logo_footer">
@@ -742,19 +743,19 @@
                     <h6 class="footer_head">CERTIFYD PRODUCTS</h6>
                     <ul class="footer_cproducts">
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Places </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Places </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Connect </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Connect </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Worksuite </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Worksuite </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Mails </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Mails </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Careers </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Careers </a>
                         </li>
                     </ul>
                 </div>
@@ -763,13 +764,13 @@
                     <h6 class="footer_head">SITE OVERVIEW</h6>
                     <ul class="footer_cproducts">
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Home </a>
+                            <i class="fas fa-caret-right"></i> <a href="index.html" class=""> Home </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Services</a>
+                            <i class="fas fa-caret-right"></i> <a href="portfolio.html" class=""> Portfolio</a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Portfolio</a>
+                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Pricing</a>
                         </li>
                         <li>
                             <i class="fas fa-caret-right"></i> <a href="#" class=""> FAQs </a>
@@ -798,15 +799,15 @@
                     <h6 class="footer_head">FOLLOW US</h6>
                     <ul class="social_footer">
                         <li class="social_item">
-                            <a href=""> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" aria-label="Certifyd Facebook"> <i class="fab fa-facebook-f"></i> </a>
                         </li>
                         <li class="social_item">
-                            <a href=""> <i class="fab fa-twitter"></i> </a>
+                            <a href="https://twitter.com/CertifydT" target="_blank" aria-label="Certifyd twitter"> <i class="fab fa-twitter"></i> </a>
                             <li class="social_item">
-                                <a href=""> <i class="fab fa-linkedin-in"></i> </a>
+                                <a href="https://www.linkedin.com/company/certifyd-technologies-inc/" target="_blank" aria-label="Certifyd Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
                             </li>
                             <li class="social_item">
-                                <a href=""> <i class="fab fa-instagram"></i> </a>
+                                <a href="https://www.instagram.com/certifydtechnologies/" target="_blank" aria-label="Certifyd Instagram"> <i class="fab fa-instagram"></i> </a>
                             </li>
                     </ul>
                 </div>
@@ -839,7 +840,6 @@
     <!-- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script> -->
 
     <script src="assets/js/aos.js"></script>
-    <script src="assets/js/shrink_script_navbar.js"></script>
 
     <script src="assets/js/custom.js"></script>
 </body>

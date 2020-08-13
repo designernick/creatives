@@ -18,12 +18,9 @@
     <link rel="icon" href="assets/images/logo_4.png" type="image/png" sizes="64x64">
 
     <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
-    <!-- <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.min.css"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -37,12 +34,12 @@
             <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
                 <div class="container">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-2">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" aria-label="Certifyd Creatives" href="index.html">
                             <img src="assets/images/logo3.jpg" class="img-fluid img-responsive" alt="Creatives" title="Creatives" />
                         </a>
                     </div>
                     <!-- new menu btn-->
-                    <div class="menu_container navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" onclick="myFunction(this)">
+                    <div class="menu_container navbar-toggler" role="button" name="menu_btn" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" onclick="myFunction(this)">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
@@ -52,31 +49,29 @@
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a href="index.html" class="nav-link smooth">Home</a>
+                                    <a href="index.html" aria-label="Home" class="nav-link smooth">Home</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="portfolio.html" class="nav-link smooth">Portfolio</a>
+                                    <a href="portfolio.html" aria-label="Portfolio" class="nav-link smooth">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link smooth">Pricing</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link smooth">FAQs</a>
+                                    <a href="#" aria-label="Pricing" class="nav-link smooth">Pricing</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link smooth">Contact Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <button onclick="window.location.href='#'" class="btn btn-primary btn_hireus">Hire
-                                        Us</button>
+                                    <a href="#" aria-label="FAQs" class="nav-link smooth">FAQs</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <button onclick="window.location.href='#'" class="btn btn-primary btn_signup">Sign
-                                        Up</button>
+                                    <a href="#" aria-label="Contact us" class="nav-link smooth">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button onclick="window.location.href='#'" class="btn btn-primary btn_hireus">Hire Us</button>
+                                </li>
+
+                                <li class="nav-item">
+                                    <button onclick="window.location.href='#'" class="btn btn-primary btn_signup">Sign Up</button>
                                 </li>
 
                             </ul>
@@ -145,22 +140,22 @@
 
                             <ul class="nav nav-pills mb-3" id="pills-tab_PC" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
+                                    <a class="nav-link active" id="pills-all-tab" aria-label="category-all-work" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pills-LogoPC-tab" data-toggle="pill" href="#pills-LogoPC" role="tab" aria-controls="pills-LogoPC" aria-selected="false">Logo Designs</a>
+                                    <a class="nav-link" id="pills-LogoPC-tab" aria-label="category-logo-work" data-toggle="pill" href="#pills-LogoPC" role="tab" aria-controls="pills-LogoPC" aria-selected="false">Logo Designs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pills-webPC-tab" data-toggle="pill" href="#pills-webPC" role="tab" aria-controls="pills-webPC" aria-selected="false">Web Designs</a>
+                                    <a class="nav-link" id="pills-webPC-tab" aria-label="category-web-work" data-toggle="pill" href="#pills-webPC" role="tab" aria-controls="pills-webPC" aria-selected="false">Web Designs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pills-appPC-tab" data-toggle="pill" href="#pills-appPC" role="tab" aria-controls="pills-appPC" aria-selected="false">App Designs</a>
+                                    <a class="nav-link" id="pills-appPC-tab" aria-label="category-app-work" data-toggle="pill" href="#pills-appPC" role="tab" aria-controls="pills-appPC" aria-selected="false">App Designs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pills-buzzPC-tab" data-toggle="pill" href="#pills-buzzPC" role="tab" aria-controls="pills-buzzPC" aria-selected="false">Business Ads</a>
+                                    <a class="nav-link" id="pills-buzzPC-tab" aria-label="category-buzz-work" data-toggle="pill" href="#pills-buzzPC" role="tab" aria-controls="pills-buzzPC" aria-selected="false">Business Ads</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pills-buzzcardPC-tab" data-toggle="pill" href="#pills-buzzcardPC" role="tab" aria-controls="pills-buzzcardPC" aria-selected="false">Business Cards</a>
+                                    <a class="nav-link" id="pills-buzzcardPC-tab" aria-label="category-buzzcard-work" data-toggle="pill" href="#pills-buzzcardPC" role="tab" aria-controls="pills-buzzcardPC" aria-selected="false">Business Cards</a>
                                 </li>
 
                             </ul>
@@ -406,7 +401,7 @@
                         </div>
                         <div class="featured_desc">
                             <div class="featured_keypoint">
-                                <h6>Features & Functionality </h6>
+                                <h5>Features & Functionality </h5>
                                 <ul>
                                     <li><i class="fas fa-check"></i>Live Chat Integration</li>
                                     <li><i class="fas fa-check"></i>e Wallet Money Account</li>
@@ -627,7 +622,8 @@
                     </div>
 
                     <div class="subscribe_cover">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your email">
+                        <label for="subcribe_demoinput"></label>
+                        <input type="text" class="form-control" name="subcribe_demoinput" id="subcribe_demoinput" placeholder="Enter your email">
                         <button class="btn btn_getfreedemo">Get a FREE Demo</button>
                     </div>
 
@@ -644,45 +640,45 @@
         <img src="assets/img/ellipse_02.png" class="ellipse01" alt="certifydCreatives">
         <img src="assets/img/ellipse_03.png" class="ellipse02" alt="certifydCreatives">
         <div class="container-fluid">
-            <div class="row pb-4">
+            <div class="row pb-4" data-aos="fade-up">
 
-                <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-12">
                     <img src="assets/images/logo_4.png" alt="" class="img-fluid logo_footer">
                     <!-- <h6 class="footer_head">Certifyd Creatives</h6> -->
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-12 set-col">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 set-col">
                     <h6 class="footer_head">CERTIFYD PRODUCTS</h6>
                     <ul class="footer_cproducts">
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Places </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Places </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Connect </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Connect </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Worksuite </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Worksuite </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Mails </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Mails </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Certifyd Careers </a>
+                            <i class="fas fa-caret-right"></i> <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" class=""> Certifyd Careers </a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+                <div class="col-lg-2 col-md-2 col-sm-6 col-12">
                     <h6 class="footer_head">SITE OVERVIEW</h6>
                     <ul class="footer_cproducts">
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Home </a>
+                            <i class="fas fa-caret-right"></i> <a href="index.html" class=""> Home </a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Services</a>
+                            <i class="fas fa-caret-right"></i> <a href="portfolio.html" class=""> Portfolio</a>
                         </li>
                         <li>
-                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Portfolio</a>
+                            <i class="fas fa-caret-right"></i> <a href="#" class=""> Pricing</a>
                         </li>
                         <li>
                             <i class="fas fa-caret-right"></i> <a href="#" class=""> FAQs </a>
@@ -693,7 +689,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+                <div class="col-lg-2 col-md-2 col-sm-6 col-12">
                     <h6 class="footer_head">CONTACT US</h6>
                     <ul class="contact_footer">
                         <li>
@@ -707,19 +703,19 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                     <h6 class="footer_head">FOLLOW US</h6>
                     <ul class="social_footer">
                         <li class="social_item">
-                            <a href=""> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="https://www.facebook.com/CertifydTechnologiesInc/" target="_blank" aria-label="Certifyd Facebook"> <i class="fab fa-facebook-f"></i> </a>
                         </li>
                         <li class="social_item">
-                            <a href=""> <i class="fab fa-twitter"></i> </a>
+                            <a href="https://twitter.com/CertifydT" target="_blank" aria-label="Certifyd twitter"> <i class="fab fa-twitter"></i> </a>
                             <li class="social_item">
-                                <a href=""> <i class="fab fa-linkedin-in"></i> </a>
+                                <a href="https://www.linkedin.com/company/certifyd-technologies-inc/" target="_blank" aria-label="Certifyd Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
                             </li>
                             <li class="social_item">
-                                <a href=""> <i class="fab fa-instagram"></i> </a>
+                                <a href="https://www.instagram.com/certifydtechnologies/" target="_blank" aria-label="Certifyd Instagram"> <i class="fab fa-instagram"></i> </a>
                             </li>
                     </ul>
                 </div>
@@ -730,8 +726,7 @@
                 <div class="col-12">
                     <div class="copyright_box text-center">
 
-                        <p class="text-center mb-0 mt-2">Copyright © 2019-2020 by Certifyd Corporation Inc. All Rights Reserved.
-                        </p>
+                        <p class="text-center mb-0 mt-2">Copyright © 2019-2020 by Certifyd Corporation Inc. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
@@ -753,7 +748,6 @@
     <!-- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script> -->
 
     <script src="assets/js/aos.js"></script>
-    <script src="assets/js/shrink_script_navbar.js"></script>
 
     <script src="assets/js/custom.js"></script>
 </body>
