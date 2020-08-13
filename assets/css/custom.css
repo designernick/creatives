@@ -8,6 +8,30 @@
     src: url(../fonts/Poppins/Poppins-Bold.ttf);
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FA09A7;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
 
 /*Global CSS*/
 
@@ -100,10 +124,13 @@ h6 {
     display: none !important;
 }
 
-nav {
-    transition: all 0.3s;
+nav.navbar {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+    padding: 0;
     z-index: 0;
-    /*box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);*/
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.03);
 }
 
 .navbar-brand {
@@ -111,15 +138,12 @@ nav {
     transition: all 0.3s ease-in-out;
 }
 
-ul li {
-    font-family: Poppins;
+ul.navbar-nav li {
+    font-family: Poppins !important;
     font-size: 15px;
     font-weight: 500;
     padding: 0 10px;
     transition: all 0.3s ease-in-out;
-}
-
-.nav-item {
     color: #dcacc3;
     padding-top: 4px;
 }
@@ -128,72 +152,46 @@ ul li {
     padding-top: 0;
 }
 
-.nav-item a.nav-link {
+.nav-item .nav-link {
+    border-bottom: 1.5px dashed transparent;
     padding: 0 0.5rem!important;
+    transition: all 0.2s ease-in;
+    font-weight: 500;
+    color: #FA09A7 !important;
 }
 
 #header-sticky-wrapper.sticky-wrapper.fixed-top.is-sticky.active nav .navbar-brand {
     /* width: 90px; */
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
-nav .nav-item a.nav-link:focus,
+
+/* nav .nav-item a.nav-link:focus,
 .navbar-light .navbar-nav .nav-link:focus {
     color: #FA09A7;
-}
+} */
 
-nav li.nav-item:hover {
+
+/* nav li.nav-item:hover {
     color: #FA09A7;
-}
-
-ul.navbar-nav li.nav-item.nav_icon:hover a:after {
-    border: 0 !important;
-}
-
-ul.navbar-nav li:last-child:hover:after {
-    border: 0 !important;
-}
-
-.search_item input:hover .search_icon {
-    z-index: 99999;
-}
-
-nav .nav-item:hover #navbarResponsive ul>i {
-    display: block;
-}
-
-.navbar-light .navbar-nav a.nav-link {
-    z-index: 0;
-    font-family: Poppins;
-    color: #FA09A7;
-    font-weight: 500;
-    cursor: pointer;
-}
+} */
 
 .navbar-light .navbar-nav {
-    /* margin-top: 8px; */
     display: flex;
     justify-content: center;
     justify-items: center;
 }
 
-.navbar-light .navbar-nav a.nav-link:hover {
-    color: #fa09a683;
+.navbar-light .navbar-nav .nav-link:hover {
     color: #fa09a7;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
+    border-bottom: 1.5px dashed #FA09A7;
+    transition: all 0.2s ease-in;
 }
 
 nav.navbar.shrink {
     min-height: 10px;
     background: #ffffff;
-}
-
-nav.navbar {
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background: transparent;
-    padding: 0;
 }
 
 nav .navbar-toggler-icon {
@@ -868,7 +866,7 @@ p.banner_inner_parah {
 /* Quality Work Starts */
 
 #qualityWork {
-    padding: 1rem 0;
+    padding: 3rem 0 0rem 0;
 }
 
 #qualityWork .quality_head h2 {
@@ -963,10 +961,21 @@ p.banner_inner_parah {
 
 #seeMoreWork {
     padding: 0.3rem 0;
+    margin-top: -4%;
+    position: relative;
 }
 
-#seeMoreWork #v-pills-tabContent {
-    margin-top: 6rem;
+#seeMoreWork>img.wheel01 {
+    position: absolute;
+    right: 5%;
+    top: -15%;
+    width: 100%;
+    max-width: 250px;
+    z-index: 999;
+}
+
+#seeMoreWork .tab-content {
+    margin-top: 2rem;
 }
 
 #seeMoreWork .quality_head {
@@ -977,7 +986,7 @@ p.banner_inner_parah {
 #seeMoreWork .quality_head h2 {
     color: #FA09A7;
     padding: 1rem 0;
-    width: 128%;
+    /* width: 160%; */
     max-width: 523px !important;
     padding: 1rem 0;
     z-index: 6;
@@ -1358,6 +1367,7 @@ p.banner_inner_parah {
     display: inline-block;
     padding: 0 1.3rem 0 0;
     font-size: 22px;
+    margin-bottom: 1rem;
 }
 
 .social_footer .social_item a i {
@@ -1690,6 +1700,11 @@ ul#pills-tab_PC li a {
     font-weight: 600;
 }
 
+ul#pills-tab_PC .nav-item .nav-link {
+    padding: 0.4rem 1rem !important;
+    border-bottom: 1.5px dashed transparent;
+}
+
 ul#pills-tab_PC .nav-link.active,
 ul#pills-tab_PC .show>.nav-link {
     color: #FA09A7;
@@ -1698,20 +1713,16 @@ ul#pills-tab_PC .show>.nav-link {
     border-radius: 0;
 }
 
-ul#pills-tab_PC .nav-item .nav-link {
-    padding: 0.2rem 1rem !important;
-}
-
 #FeaturedUI {
     padding: 3rem 0;
 }
 
-#FeaturedUI .featured_head {
+.featured_head {
     color: #FA09A7;
     text-align: center;
 }
 
-#FeaturedUI .featured_head h2 {
+.featured_head h2 {
     font-size: 36px;
     padding: 0.5rem 0;
 }
@@ -1769,15 +1780,17 @@ ul#pills-tab_PC .nav-item .nav-link {
 }
 
 .featured_right {
-    position: relative;
-    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .featured_right img {
-    position: absolute;
+    position: relative;
     width: 100%;
     max-width: 280px;
-    box-shadow: rgb(0 0 0 / 18%) 0px 2px 18px 0px;
+    /* box-shadow: rgb(0 0 0 / 18%) 0px 2px 18px 0px; */
     border-radius: 10px;
 }
 
@@ -1786,33 +1799,31 @@ ul#pills-tab_PC .nav-item .nav-link {
     top: 10px;
 }
 
-.featured_right img.appview02 {
-    right: 30px;
-    top: 95px;
-    z-index: 99;
-}
-
 
 /* //Featured WebMockups Starts*/
 
+
+/* #FeaturedUIweb .container .row>div:first-child {
+    order: 2;
+}
+
+#FeaturedUIweb .container .row>div:last-child {
+    order: 1;
+} */
+
 .featuredweb_right {
-    position: relative;
-    padding: 2.6rem 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .featuredweb_right img {
-    position: absolute;
+    position: relative;
 }
 
 .featuredweb_right .webview01 {
-    left: -25%;
-    top: 15%;
     z-index: 99;
-}
-
-.featuredweb_right .webview02 {
-    left: -1%;
-    top: 295%;
 }
 
 .featured_left.featuredweb_left {
@@ -1924,6 +1935,7 @@ ul#pills-tab_PC .nav-item .nav-link {
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: -1;
 }
 
 .choosepack_box .pack_details ul li i {
@@ -2001,3 +2013,9 @@ ul#pills-tab_PC .nav-item .nav-link {
 
 
 /* //PORTFOLIO PAGE CSS Ends */
+
+
+/* CURSOR CREATIVITY */
+
+
+/* CURSOR CREATIVITY */

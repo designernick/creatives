@@ -43,6 +43,14 @@
                     #seeMoreWork #v-pills-tab_seeMoreWork .nav-link {
                         text-align: center;
                     }
+                    /* //Portfolio Page */
+                    #Brands.portfolio_categorized ul#pills-tab_PC {
+                        padding: 0rem 0;
+                    }
+                    #FeaturedUI {
+                        padding: 0.5rem 0;
+                    }
+                    /* //Portfolio Page */
                 }
                 
                 @media only screen and (max-width: 768px) {
@@ -92,6 +100,23 @@
                         width: unset;
                         max-width: unset;
                     }
+                    /* //Portfolio Page */
+                    #Brands.portfolio_categorized .brands_content_outer.portfolio_content .brands_content {
+                        padding: 2rem 3rem !important;
+                    }
+                    #FeaturedUI .container .row>div:first-child {
+                        order: 2;
+                    }
+                    #FeaturedUI .container .row>div:last-child {
+                        order: 1;
+                    }
+                    #FeaturedUI .featured_left {
+                        padding: 0 0 3rem 0;
+                    }
+                    .featured_left.featuredweb_left {
+                        padding: 0rem 0 3rem 0;
+                    }
+                    /* //Portfolio Page */
                 }
                 
                 @media only screen and (max-width: 567px) {
@@ -108,7 +133,7 @@
                         font-size: 35px;
                     }
                     #joinUs {
-                        padding-bottom: 4rem;
+                        padding: 3.5rem 0;
                     }
                     #joinUs .btn_hireus,
                     #joinUs .btnGetfreedemo {
@@ -132,6 +157,20 @@
                     .testimonial-carousel .item .container .row>div {
                         padding: 0;
                     }
+                    /* //Portfolio Page */
+                    #Brands.portfolio_categorized li.nav-item:last-child {
+                        padding-bottom: 1rem;
+                    }
+                    #choosePack .choosepack_head {
+                        overflow: hidden;
+                    }
+                    #choosePack .choosepack_head>img {
+                        top: 0px;
+                    }
+                    #choosePack .dashed_line01 {
+                        right: 0px;
+                    }
+                    /* //Portfolio Page */
                 }
                 
                 @media only screen and (max-width: 477px) {
@@ -146,6 +185,24 @@
                     .testimonial-carousel .item .testimonial_content .more {
                         float: unset;
                     }
+                    /* //Portfolio Page */
+                    .choosepack_box {
+                        padding: 0 0rem 2rem 1.4rem;
+                    }
+                    .choosepack_box>img {
+                        width: 100%;
+                        max-width: 130px;
+                    }
+                    .subscribe_cover input {
+                        padding: 10px 10px;
+                    }
+                    .subscribe_cover .btn_getfreedemo {
+                        padding: 10px 10px;
+                    }
+                    #footer {
+                        padding: 3rem 0 1rem 0;
+                    }
+                    /* //Portfolio Page */
                 }
                 
                 @media only screen and (max-width: 360px) {}
