@@ -8,7 +8,7 @@
                     li.nav-item:last-child {
                         padding-bottom: 2rem;
                     }
-                    #ourServices .ourService_outer .service_col_2 {
+                    /* #ourServices .ourService_outer .service_col_2 {
                         padding: 0% 1rem;
                     }
                     #ourServices .service_col_content {
@@ -22,7 +22,7 @@
                     }
                     #qualityWork .quality_work_slider .carousel-control-prev-icon {
                         margin-right: 70px;
-                    }
+                    } */
                     #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
                     #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
                         width: unset;
@@ -77,8 +77,11 @@
                     #ExperienceTrue .expT_content {
                         padding-bottom: 0rem;
                     }
-                    #qualityWork #v-pills-tab_category {
+                    /* #qualityWork #v-pills-tab_category {
                         display: contents;
+                    } */
+                    #howItWorks .card-pricing.card-coin {
+                        min-height: 320px;
                     }
                     #seeMoreWork #v-pills-tab_seeMoreWork {
                         padding: 0rem 0;
