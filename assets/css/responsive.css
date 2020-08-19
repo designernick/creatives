@@ -198,7 +198,11 @@
                     }
                     /* //Portfolio Page */
                     #Banner.portfolio_page .banner_inner {
-                        height: 560px;
+                        height: 415px;
+                    }
+                    #Brands.portfolio_categorized ul#pills-tab_PC {
+                        display: grid;
+                        text-align: center;
                     }
                     #Brands.portfolio_categorized .brands_content_outer {
                         padding: 0rem 0;
@@ -231,6 +235,18 @@
                         padding: 1.5rem 0;
                     }
                     /* //Pricing  Page Ends*/
+                    /* //FAQs  Page Starts*/
+                    #Banner.faq_page .banner_inner {
+                        height: 300px;
+                    }
+                    div#accordion>.row>div {
+                        padding: 0;
+                    }
+                    #toSetup .btn_cover .btn_hireus {
+                        margin-right: 1rem;
+                        margin: 1rem;
+                    }
+                    /* //FAQs  Page Ends*/
                 }
                 
                 @media only screen and (max-width: 360px) {}

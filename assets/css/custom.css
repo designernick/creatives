@@ -397,7 +397,7 @@
     }
     
     #Banner .banner_inner {
-        height: 640px;
+        height: 600px;
         width: 100%;
         position: relative;
         display: flex;
@@ -425,7 +425,7 @@
     
     #Banner .banner_inner .ellipse01 {
         position: absolute;
-        top: 28%;
+        top: 16%;
         left: 51%;
         width: 100%;
         max-width: 70px;
@@ -541,7 +541,7 @@
     }
     
     #Brands .brands_content_outer {
-        padding: 3rem 0;
+        padding: 3rem 0 2rem 0;
     }
     
     #Brands .brands_content {
@@ -778,7 +778,11 @@
     }
     
     #ourServices .service_col_content h2 {
-        padding: 1rem 0 2.4rem;
+        padding: 1rem 0 1.4rem;
+    }
+    
+    #ourServices .service_col_content .service_head>p {
+        margin-bottom: 2rem;
     }
     
     #ourServices .service_col_content .service_keypoint {
@@ -985,7 +989,7 @@
     
     #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
     #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
-        background: #FA09A7;
+        background: #f2b61e;
         color: #fff;
         width: 100%;
         max-width: 190px;
@@ -1001,12 +1005,60 @@
         vertical-align: middle;
         top: 8px;
         right: -13px;
-        border-left: 14px solid #fa09a7;
+        border-left: 14px solid #f2b61e;
         border-top: 14px solid transparent;
         border-bottom: 14px solid transparent;
         height: 20px;
         transition: all 0.3s ease-in-out;
     }
+    /* tab 2 hover */
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(2),
+    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link:nth-child(2) {
+        background: #c01a66;
+        color: #fff;
+    }
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(2):after {
+        border-left: 14px solid #c01a66;
+    }
+    /* tab 2 hover */
+    /* tab 3 hover */
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(3),
+    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link:nth-child(3) {
+        background: #e038b1;
+        color: #fff;
+    }
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(3):after {
+        border-left: 14px solid #e038b1;
+    }
+    /* tab 3 hover */
+    /* tab 4 hover */
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(4),
+    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link:nth-child(4) {
+        background: #F8CA2C;
+        color: #fff;
+    }
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(4):after {
+        border-left: 14px solid #F8CA2C;
+    }
+    /* tab 4 hover */
+    /* tab 5 hover */
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(5),
+    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link:nth-child(5) {
+        background: #EB42CD;
+        color: #fff;
+    }
+    
+    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:nth-child(5):after {
+        border-left: 14px solid #EB42CD;
+    }
+    /* tab 5 hover */
     
     #seeMoreWork .my-row {
         display: -ms-flexbox;
@@ -1047,30 +1099,50 @@
         padding: 1rem 0;
     }
     
-    #howItWorks .card-pricing.card-coin .card-body h5 {
-        color: #FA09A7;
+    #howItWorks .card-coin .card-body h5 {
+        color: #000;
     }
     
-    #howItWorks .card-pricing.card-coin .card-body span {
+    #howItWorks .card-coin .card-body span {
         font-weight: 700;
         font-size: 2rem;
     }
     
-    #howItWorks .card-pricing.card-coin .card-body {
+    #howItWorks .card-coin .card-body {
         background: #fff;
+        color: #fff;
         border-radius: 10px;
         border: 1px solid #ddd;
         box-shadow: 0 7px 21px 0 rgba(0, 0, 0, .1);
     }
     
-    #howItWorks .card-pricing.card-coin {
+    #howItWorks .card-coin {
         margin-top: 75px;
         min-height: 400px;
         border: 0;
         position: relative;
     }
     
-    #howItWorks .card-pricing.card-coin .indicator {
+    #howItWorks .howitwork_row>div:nth-child(1) .card-body {
+        background: #DAB81E;
+        /* background: #DE780E; */
+    }
+    
+    #howItWorks .howitwork_row>div:nth-child(2) .card-body {
+        background: #F8CA2C;
+        background: #e038b1;
+    }
+    
+    #howItWorks .howitwork_row>div:nth-child(3) .card-body {
+        background: #CC2580;
+        background: #F8CA2C;
+    }
+    
+    #howItWorks .howitwork_row>div:nth-child(4) .card-body {
+        background: #EB42CD;
+    }
+    
+    #howItWorks .card-coin .indicator {
         position: absolute;
         padding: 12px;
         width: 45px;
@@ -1086,22 +1158,22 @@
         transition: all 0.3s ease;
     }
     
-    #howItWorks .card-pricing.card-coin .indicator i {
+    #howItWorks .card-coin .indicator i {
         color: #555;
         font-size: 20px;
     }
     
-    #howItWorks .card-pricing.card-coin:hover .indicator {
+    #howItWorks .card-coin:hover .indicator {
         background: #ddd;
     }
     
-    #howItWorks .card-pricing.card-coin .card-header {
+    #howItWorks .card-coin .card-header {
         margin: -50px auto 0px;
         border-bottom: none;
         background: transparent;
     }
     
-    #howItWorks .card-pricing.card-coin hr {
+    #howItWorks .card-coin hr {
         width: 55%;
         margin: 15px auto;
         height: 1px;
@@ -1112,12 +1184,12 @@
         background-color: #fa09a766 !important;
     }
     
-    #howItWorks .card-pricing.card-coin .list-group {
+    #howItWorks .card-coin .list-group {
         margin: 0 auto;
         text-align: left;
     }
     
-    #howItWorks .card-pricing.card-coin .list-group .list-group-item {
+    #howItWorks .card-coin .list-group .list-group-item {
         background-color: transparent;
         border: none;
         padding: .4rem 1rem;
@@ -1232,7 +1304,6 @@
     #clientSays {
         position: relative;
         padding: 3rem 0;
-        border: 1px solid #ddd;
     }
     
     #clientSays .client_head {
@@ -1625,7 +1696,7 @@
     /* //PORTFOLIO PAGE CSS Starts */
     
     #Banner.portfolio_page .banner_inner {
-        height: 560px;
+        height: 430px;
     }
     
     #Banner .btn_cover .btn_hireus {
@@ -1644,11 +1715,11 @@
     }
     
     .brands_content_outer.portfolio_content .brands_content {
-        padding: 3rem 3.5rem !important;
+        padding: 2.5rem 3.5rem !important;
     }
     
     .brands_content_outer.portfolio_content .brands_content .brands_head {
-        padding-bottom: 2rem;
+        padding-bottom: 0.2rem;
         text-align: center;
     }
     
@@ -1771,7 +1842,7 @@
     }
     
     #FeaturedUI .featured_left {
-        padding: 3rem 0;
+        padding: 0rem 0 2rem 0;
     }
     
     .featured_left .featured_title {
@@ -1866,7 +1937,7 @@
     }
     
     .featured_left.featuredweb_left {
-        padding: 3rem 0;
+        padding: 0rem 0 3rem 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1908,6 +1979,7 @@
     }
     
     #Subscribe .joinus_head p {
+        position: relative;
         z-index: 5;
     }
     
@@ -1916,7 +1988,7 @@
         width: 100%;
         max-width: 585px;
         margin: 0 auto;
-        padding: 2.2rem 0 0 0;
+        padding: 1.4rem 0 0 0;
     }
     
     .subscribe_cover input {
@@ -1942,7 +2014,7 @@
     /* header prcing page */
     
     #Banner.pricing_page .banner_inner {
-        height: 530px;
+        height: 430px;
     }
     /* header prcing page */
     /* //Choose Pack Starts*/
@@ -1975,11 +2047,29 @@
         right: 0;
     }
     
+    .choosepack_content>div>div:nth-child(1) .pack_details {
+        background: #DAB81E;
+    }
+    
+    .choosepack_content>div>div:nth-child(2) .pack_details {
+        background: #F8CA2C;
+        background: #EB42CD;
+    }
+    
+    .choosepack_content>div>div:nth-child(3) .pack_details {
+        background: #CC2580;
+        background: #F8CA2C;
+    }
+    
+    .choosepack_content>div>div:nth-child(4) .pack_details {
+        background: #EB42CD;
+    }
+    
     .choosepack_box {
         position: relative;
         border-radius: 0 0 12px 12px;
         /* padding: 0 2rem 2rem 2rem; */
-        box-shadow: 0 7px 21px 0 rgb(0 0 0 / 18%);
+        box-shadow: 0px 0px 38px #e8e8e8;
         margin-bottom: 2rem;
         border: 1.4px dashed transparent;
         transition: all 0.3s ease;
@@ -1991,7 +2081,7 @@
         border-bottom: 1px solid #e4e4e4;
         padding: 1.77rem 0;
         padding-bottom: 0rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.3rem;
         transition: all 0.3s ease;
     }
     
@@ -2005,22 +2095,27 @@
     }
     
     .choosepack_box .pack_details {
-        padding: 0 2rem 2rem 2rem;
+        padding: 1.5rem 2rem 2rem 2rem;
+        color: #fff !important;
     }
     
     .choosepack_box .pack_details .price_box {
         padding: 1rem 0.2rem;
         width: 100%;
         text-align: center;
-        border: 1.4px dashed #FA09A7;
+        border: 1.4px dashed #555;
         border-radius: 8px 8px;
+    }
+    
+    .choosepack_box .pack_details>h5 {
+        text-align: center;
     }
     
     .choosepack_box .pack_details .price_box h5 {
         font-size: 36px;
         font-weight: 600;
         line-height: 30px;
-        color: #FA09A7;
+        /* color: #FA09A7; */
         position: relative;
         padding-left: 0.5rem;
         display: inline-block;
@@ -2041,7 +2136,7 @@
     }
     
     .choosepack_box .pack_details .price_box p {
-        color: #707070;
+        color: #555;
         font-size: 14px;
         margin: 0;
     }
@@ -2058,18 +2153,34 @@
     
     .choosepack_box .pack_details .btn_cover {
         padding: 1rem 0;
+        text-align: center;
     }
     
     .choosepack_box .pack_details .btn_cover .btnGetStarted {
-        padding: 8px 25px;
+        /* padding: 8px 25px; */
+        background: #FA09A7;
+        color: #fff;
         /* visibility: hidden; */
         transition: all 0.2s ease;
         transition: all .2s cubic-bezier(.86, 0, .07, 1);
     }
     
+    .choosepack_content>div>div:nth-child(2) .pack_details .btnGetStarted {
+        background: #fff;
+        color: #000;
+    }
+    
+    .choosepack_content>div>div:nth-child(3) .pack_details .btnGetStarted {
+        background: #000;
+        color: #fff;
+    }
+    
     .choosepack_box:hover {
-        border: 1.4px dashed #FA09A7;
+        /* border: 1.4px dashed #FA09A7; */
         cursor: pointer;
+        /* box-shadow: 0px 0px 38px #e8e8e8; */
+        /* box-shadow: 0 7px 21px 0 rgb(0 0 0 / 18%); */
+        transform: scale(1.04);
     }
     
     .choosepack_box:hover .packbox_head {
@@ -2088,8 +2199,20 @@
     }
     
     .choosepack_box .pack_details ul li i {
-        color: #707070;
-        margin-right: 0.5rem;
+        margin-right: 0.6rem;
+        font-size: 14px;
+    }
+    
+    .choosepack_content>div>div:nth-child(1) .pack_details ul li i {
+        color: #555;
+    }
+    
+    .choosepack_content>div>div:nth-child(2) .pack_details ul li i {
+        color: #f8ca2c;
+    }
+    
+    .choosepack_content>div>div:nth-child(3) .pack_details ul li i {
+        color: #000;
     }
     /* //Choose Pack Ends*/
     /* PRICING PAGE CSS Starts*/
@@ -2188,6 +2311,12 @@
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         font-size: 16px;
         padding: 0.6rem 2rem;
+        background: #fa09a7;
+        color: #fff;
+    }
+    
+    #toSetup .btn_cover .btn_hireus:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
     
     #toSetup .btn_cover .btnGetfreedemo {
@@ -2197,6 +2326,15 @@
     }
     /* FAQs PAGE Ends*/
     /* Contact Us PAGE Starts*/
+    
+    #Banner.contactus_page .header_right_imgcover img {
+        width: 100%;
+        position: positive;
+        max-width: 700px;
+        right: -50px;
+        top: 0;
+        transform: scale(1);
+    }
     
     #Contactus {
         padding: 2.5rem 0;
@@ -2220,6 +2358,45 @@
     
     #Contactus .contactus_head h2 {
         margin: 0;
+    }
+    
+    #Contactus .contact_left .address_box {
+        color: #fff;
+        border: 1px solid #ddd;
+        background: #FB3A8A;
+        background: #cf2aeb;
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    #Contactus .contact_left img {
+        width: 100%;
+        max-width: 370px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    #Contactus .contact_left .address_box ul li i {
+        margin-right: 0.5rem;
+    }
+    
+    #Contactus .contact_left .address_box h2 {
+        text-align: center;
+    }
+    
+    #Contactus .contact_left .address_box ul li h5 {
+        padding: 0.4rem 0;
+    }
+    
+    #Contactus .contact_left .address_box ul li p {
+        margin: 0;
+    }
+    
+    #Contactus .contact_left .address_box ul {
+        margin: 0;
+        padding-left: 1.5rem;
     }
     
     #Contactus .contactus_content {
