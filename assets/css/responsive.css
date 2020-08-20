@@ -125,7 +125,7 @@
                     /* //Portfolio Page */
                     /* //common */
                     #Banner .banner_inner .dots02 {
-                        z-index: 2;
+                        z-index: 5;
                     }
                     #Banner .header_right_imgcover img {
                         width: 100% !important;
