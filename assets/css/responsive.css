@@ -60,6 +60,9 @@
                     #Banner {
                         padding-top: 45px;
                     }
+                    #Banner .banner_inner p.banner_inner_parah {
+                        padding: 18px 0px 0px 0px;
+                    }
                     .header_getdemo {
                         margin-right: 0px;
                     }
@@ -120,6 +123,24 @@
                         padding: 0rem 0 3rem 0;
                     }
                     /* //Portfolio Page */
+                    /* //common */
+                    #Banner .banner_inner .dots02 {
+                        z-index: 2;
+                    }
+                    #Banner .header_right_imgcover img {
+                        width: 100% !important;
+                        position: relative !important;
+                        max-width: 700px !important;
+                        right: 0px !important;
+                        top: -40px !important;
+                        transform: scale(1.05) !important;
+                    }
+                    /* //common */
+                    /* //Contact Us Page */
+                    #Banner.contactus_page .header_right_imgcover img {
+                        transform: scale(1.2) !important;
+                    }
+                    /* //Contact Us Page */
                 }
                 
                 @media only screen and (max-width: 567px) {
@@ -131,6 +152,14 @@
                     }
                     #Brands .brands_content {
                         padding: 2rem 0.5rem;
+                    }
+                    #Banner.home_page .header_right_imgcover img {
+                        width: 100% !important;
+                        position: relative !important;
+                        max-width: 700px !important;
+                        right: 0px !important;
+                        top: 0px !important;
+                        transform: scale(1.1) !important;
                     }
                     .expT_content .expT_box_common h3 {
                         font-size: 35px;
@@ -174,21 +203,6 @@
                         right: 0px;
                     }
                     /* //Portfolio Page */
-                    /* //common */
-                    #Banner .header_right_imgcover img {
-                        width: 100% !important;
-                        position: relative !important;
-                        max-width: 700px !important;
-                        right: 0px !important;
-                        top: -40px !important;
-                        transform: scale(1.05) !important;
-                    }
-                    /* //common */
-                    /* //Contact Us Page */
-                    #Banner.contactus_page .header_right_imgcover img {
-                        transform: scale(1.2) !important;
-                    }
-                    /* //Contact Us Page */
                 }
                 
                 @media only screen and (max-width: 477px) {
