@@ -47,7 +47,7 @@
                     #Brands.portfolio_categorized ul#pills-tab_PC {
                         padding: 0rem 0;
                     }
-                    #FeaturedUI {
+                    .featuredUI {
                         padding: 0.5rem 0;
                     }
                     /* //Portfolio Page */
@@ -107,13 +107,13 @@
                     #Brands.portfolio_categorized .brands_content_outer.portfolio_content .brands_content {
                         padding: 2rem 3rem !important;
                     }
-                    #FeaturedUI .container .row>div:first-child {
+                    .featuredUI .container .row>div:first-child {
                         order: 2;
                     }
-                    #FeaturedUI .container .row>div:last-child {
+                    .featuredUI .container .row>div:last-child {
                         order: 1;
                     }
-                    #FeaturedUI .featured_left {
+                    #featuredUI .featured_left {
                         padding: 0 0 3rem 0;
                     }
                     .featured_left.featuredweb_left {
@@ -174,6 +174,21 @@
                         right: 0px;
                     }
                     /* //Portfolio Page */
+                    /* //common */
+                    #Banner .header_right_imgcover img {
+                        width: 100% !important;
+                        position: relative !important;
+                        max-width: 700px !important;
+                        right: 0px !important;
+                        top: -40px !important;
+                        transform: scale(1.05) !important;
+                    }
+                    /* //common */
+                    /* //Contact Us Page */
+                    #Banner.contactus_page .header_right_imgcover img {
+                        transform: scale(1.2) !important;
+                    }
+                    /* //Contact Us Page */
                 }
                 
                 @media only screen and (max-width: 477px) {
@@ -184,6 +199,17 @@
                         position: absolute;
                         bottom: -11%;
                         left: -28%;
+                        z-index: 2;
+                    }
+                    #ourServices .ourService_outer .service_col_2 {
+                        padding: 0% 1rem;
+                    }
+                    #ourServices .service_col_content {
+                        padding: 0% 1rem 0px;
+                    }
+                    #howItWorks .card-coin {
+                        margin-top: 65px;
+                        min-height: 340px;
                     }
                     #joinUs .btn_hireus {
                         margin: 0px auto;
