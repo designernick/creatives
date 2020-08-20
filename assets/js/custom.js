@@ -125,4 +125,27 @@ $('.portfolioCat-carousel').owlCarousel({
 });
 
 
-//Cursor Creativity
+//Round Slider Creativity
+// $(document).ready(function() {
+//     // Initialize a slider like this.
+//     //
+//     var $box = $('#box');
+//     $box.tinycircleslider();
+
+//     // Try this to get access to the actual slider instance.
+//     //
+//     var box = $box.data("plugin_tinycircleslider");
+
+//     // Now you have access to all the methods and properties.
+//     //
+//     // box.start();
+//     // console.log(box.slideCurrent);
+//     //
+//     // etc..
+
+//     // You can bind to the move event like this.
+//     //
+//     $box.bind("move", function() {
+//         console.log("do something on every move to a new slide");
+//     });
+// });
