@@ -72,7 +72,7 @@ $('.testimonial-carousel').owlCarousel({
     mouseDrag: true,
     touchDarg: true,
     lazyload: true,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 3000,
     responsive: {
         0: {
