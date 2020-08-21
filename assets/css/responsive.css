@@ -145,6 +145,10 @@
                     #exlporeServices {
                         padding: 1rem 0 2.5rem 0;
                     }
+                    #exlporeServices .expSbox3 {
+                        padding: 0 0rem;
+                    }
+                    /* //Services Page Ends*/
                     .expSbox2 .btn_cover {
                         display: none;
                     }
@@ -326,6 +330,15 @@
                         margin: 1rem;
                     }
                     /* //FAQs  Page Ends*/
+                    /* //Services Page Starts*/
+                    .serviceWe_right {
+                        height: 210px;
+                        background-size: 100%;
+                    }
+                    #exlporeServices .expSbox3 {
+                        padding: 0 0rem;
+                    }
+                    /* //Services Page Ends*/
                 }
                 
                 @media only screen and (max-width: 360px) {}
