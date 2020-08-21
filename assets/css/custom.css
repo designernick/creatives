@@ -1564,6 +1564,10 @@
             margin-right: 0.4rem;
         }
         
+        .contact_footer li a {
+            color: #fff;
+        }
+        
         .contact_footer li {
             padding: 0.2rem 0;
         }
