@@ -14,7 +14,7 @@
         }
         
          ::-webkit-scrollbar-thumb {
-            background-color: #FA09A7;
+            background-color: #fa09a6c4;
             border-radius: 10px;
         }
         
@@ -130,6 +130,7 @@
         .navbar-brand {
             width: 70px;
             transition: all 0.3s ease-in-out;
+            float: left;
         }
         
         ul.navbar-nav li {
@@ -140,6 +141,7 @@
             transition: all 0.3s ease-in-out;
             color: #dcacc3;
             padding-top: 4px;
+            position: relative;
         }
         
         .nav-item.nav_signup {
@@ -148,24 +150,17 @@
         
         .nav-item .nav-link {
             display: inline-block;
-            border-bottom: 1.5px dashed transparent;
+            /* border-bottom: 1.5px dashed transparent; */
             padding: 0 0.5rem!important;
-            transition: all 0.2s ease-in;
             font-weight: 500;
             color: #FA09A7 !important;
+            transition: all 0.2s ease-in-out;
         }
         
         #header-sticky-wrapper.sticky-wrapper.fixed-top.is-sticky.active nav .navbar-brand {
             /* width: 90px; */
             transition: all 0.2s ease-in-out;
         }
-        /* nav .nav-item a.nav-link:focus,
-.navbar-light .navbar-nav .nav-link:focus {
-    color: #FA09A7;
-} */
-        /* nav li.nav-item:hover {
-    color: #FA09A7;
-} */
         
         .navbar-light .navbar-nav {
             display: flex;
@@ -176,8 +171,24 @@
         .navbar-light .navbar-nav .nav-link:hover {
             color: #fa09a7;
             font-weight: 600;
+        }
+        
+        .navbar-nav .nav-item .nav-link:after {
+            transition: all 0.2s ease-in-out;
+        }
+        
+        .navbar-light .navbar-nav .nav-item:hover .nav-link:after {
+            content: '';
+            position: absolute;
+            height: 2px;
+            left: 0;
+            right: 0;
+            bottom: 3px;
+            margin: 0 auto;
+            width: 50%;
             border-bottom: 1.5px dashed #FA09A7;
-            transition: all 0.2s ease-in;
+            color: #fff;
+            /* transition: all 0.2s ease-in; */
         }
         
         nav.navbar.shrink {
@@ -213,8 +224,9 @@
             color: #363636;
         }
         
-        nav.navbar.shrink ul li:hover a.nav-link {
+        .navbar-collapse.collapse.show ul .nav-item:hover .nav-link:after {
             color: #FA09A7;
+            width: 10%;
         }
         /* styles for new MENU BTN  */
         
@@ -304,6 +316,7 @@
         
         .btn_signup {
             background: #FA09A7;
+            color: #fff;
         }
         
         .btn_hireus {
@@ -573,7 +586,7 @@
         #Brands .brands-carousel .owl-item img {
             display: block;
             width: 100%;
-            max-width: 140px;
+            max-width: 180px;
             margin: 0 auto;
         }
         
@@ -2011,6 +2024,8 @@
             /* max-width: 385px; */
             padding: 10px 24px;
             margin: 0 auto;
+            border: 1px solid #fa09a7;
+            box-shadow: 0 2px 15px 0 rgb(41 41 41 / 30%);
         }
         
         .subscribe_cover .btn_getfreedemo {
@@ -2456,3 +2471,124 @@
             padding: 0.6rem 3rem;
         }
         /* Contact Us PAGE Ends*/
+        /* Services We Offer Starts*/
+        
+        #serviceWeOffer {
+            padding: 1rem 0 2rem 0;
+        }
+        
+        #serviceWeOffer .serviceWe_head {
+            padding: 1rem 0;
+        }
+        
+        #serviceWeOffer .serviceWe_head h2 {
+            color: #fa09a7;
+            text-align: center;
+        }
+        
+        #serviceWeOffer .serviceWe_left {
+            color: #707070ce;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+            vertical-align: middle;
+            height: 100%;
+        }
+        
+        #serviceWeOffer .serviceWe_left p {
+            font-weight: 600;
+            padding-right: 1rem;
+        }
+        
+        .service_right_cover {
+            padding: 1rem 0;
+        }
+        
+        .serviceWe_right {
+            width: 100%;
+            height: 280px;
+            background-image: url(../../assets/images/service_we.gif);
+            background-origin: content-box;
+            background-clip: content-box;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2); */
+            box-shadow: 0px 0px 20px #dfdfdf;
+            border-radius: 10px;
+            border: 1.5px dashed #fa09a7;
+            margin: 1rem 0 0 0;
+        }
+        
+        .featuredService_head {
+            padding: 2rem 0;
+            color: #FA09A7;
+            text-align: center;
+        }
+        
+        .RotateS_cover {
+            padding: 5.5rem 0 7rem 0;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        /* exlpore servies */
+        
+        #exlporeServices {
+            padding: 3rem 0 4.5rem 0;
+            background: #e4e4e4;
+        }
+        
+        #exlporeServices .expScard {
+            padding: 1.3rem 1rem 0.5rem;
+            transition: all 0.2s ease-in-out;
+        }
+        
+        #exlporeServices .expScard:hover {
+            background: #fff;
+            box-shadow: 0px 0px 40px #dfdfdf;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        
+        #exlporeServices .expScard h4 {
+            font-size: 22px;
+            color: #FA09A7;
+            font-weight: 600;
+        }
+        
+        #exlporeServices .expScard p {
+            margin-left: 1rem;
+            color: #555;
+        }
+        
+        #exlporeServices .expSbox2 .expScard_img {
+            width: 100%;
+            height: 280px;
+            background-image: url(../../assets/images/service_we.gif);
+            background-origin: content-box;
+            background-clip: content-box;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+            /* box-shadow: 0px 0px 20px #dfdfdf; */
+            border-radius: 10px;
+            border: 1.5px dashed #fa09a7;
+            margin: 1rem 0 0 0;
+            margin-bottom: 2rem;
+        }
+        
+        #exlporeServices .expSbox2 .btn_cover {
+            text-align: center;
+        }
+        
+        #exlporeServices .expSbox3 {
+            padding: 0 1rem;
+        }
+        /* exlpore servies */
+        /* Services We Offer Ends*/

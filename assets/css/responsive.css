@@ -141,6 +141,23 @@
                         transform: scale(1.2) !important;
                     }
                     /* //Contact Us Page */
+                    /* //Services Page */
+                    #exlporeServices {
+                        padding: 1rem 0 2.5rem 0;
+                    }
+                    .expSbox2 .btn_cover {
+                        display: none;
+                    }
+                    .serviceOrder2 {
+                        order: 2 !important;
+                    }
+                    .serviceOrder1 {
+                        order: 1 !important;
+                    }
+                    .serviceOrder3 {
+                        order: 3 !important;
+                    }
+                    /* //Services Page */
                 }
                 
                 @media only screen and (max-width: 567px) {
@@ -203,6 +220,24 @@
                         right: 0px;
                     }
                     /* //Portfolio Page */
+                    /* //Services Page */
+                    #serviceWeOffer .serviceWe_left p {
+                        padding: 0 1rem;
+                    }
+                    .RotateS_cover {
+                        padding: 2.5rem 0 3rem 0;
+                    }
+                    #rotatescroll .overlay {
+                        transform: scale(1.0);
+                    }
+                    #rotatescroll .viewport {
+                        transform: scale(1.0);
+                    }
+                    #rotatescroll .thumb {
+                        /* display: none; */
+                        transform: scale(0.8);
+                    }
+                    /* //Services Page */
                 }
                 
                 @media only screen and (max-width: 477px) {
