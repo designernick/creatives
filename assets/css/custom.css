@@ -788,6 +788,7 @@
             width: 100%;
             max-width: 90px;
             right: 3%;
+            z-index: -1;
         }
         
         #ourServices .service_col_content h2 {
