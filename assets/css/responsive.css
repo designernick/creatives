@@ -132,7 +132,7 @@
                         position: relative !important;
                         max-width: 700px !important;
                         right: 0px !important;
-                        top: -40px !important;
+                        top: -15px !important;
                         transform: scale(1.05) !important;
                     }
                     /* //common */
@@ -177,6 +177,12 @@
                         right: 0px !important;
                         top: 0px !important;
                         transform: scale(1.1) !important;
+                    }
+                    #ourServices .ourService_outer .service_col_1 {
+                        padding: 0rem 0rem;
+                    }
+                    #ourServices .ourService_outer .service_col_2 {
+                        padding: 0% 0rem;
                     }
                     .expT_content .expT_box_common h3 {
                         font-size: 35px;
@@ -249,9 +255,6 @@
                         bottom: -11%;
                         left: -28%;
                         z-index: 2;
-                    }
-                    #ourServices .ourService_outer .service_col_2 {
-                        padding: 0% 1rem;
                     }
                     #ourServices .service_col_content {
                         padding: 0% 1rem 0px;
