@@ -738,17 +738,30 @@
             padding-bottom: 0;
         }
         
-        #ourServices .service_col_1 .service_box:last-child img {
-            position: relative;
-            margin-left: -30px;
+        #ourServices .service_col_1 .service_box img.sbox01 {
+            /* transform: scale(1.1) !important; */
+            margin-bottom: -1rem;
+            max-width: 190px;
         }
         
-        #ourServices .service_col_2 .service_box:last-child img {
+        #ourServices .service_col_1 .service_box img.sbox02 {
             position: relative;
-            margin-left: 43px;
+            /* margin-bottom: -1rem; */
+            /* margin-left: 16px; */
+            /* margin-bottom: 1rem; */
+            /* max-width: 140px; */
+        }
+        
+        #ourServices .service_col_2 .service_box img.sbox03 {
             width: 100%;
-            max-width: 185px;
-            margin-top: -20px;
+            max-width: 180px !important;
+        }
+        
+        #ourServices .service_col_2 .service_box img.sbox04 {
+            position: relative;
+            margin-bottom: 26px;
+            width: 100%;
+            margin-top: -30px;
         }
         
         #ourServices .service_box h4 {
@@ -1797,8 +1810,8 @@
             position: absolute;
             max-width: 700px;
             right: -80px;
-            top: -40px;
-            transform: scale(1.0);
+            top: 27px;
+            transform: scale(1.2);
         }
         
         #Banner .btn_cover .btn_hireus {
@@ -2565,6 +2578,15 @@
         /* Contact Us PAGE Ends*/
         /* Services We Offer Starts*/
         
+        #Banner.pricing_page.service_page .header_right_imgcover img {
+            width: 100%;
+            position: absolute;
+            max-width: 700px;
+            right: -80px;
+            top: 40px;
+            transform: scale(1.1);
+        }
+        
         #serviceWeOffer {
             padding: 1rem 0 2rem 0;
         }
@@ -2661,7 +2683,7 @@
         #exlporeServices .expSbox2 .expScard_img {
             width: 100%;
             height: 280px;
-            background-image: url(../../assets/images/service_we.gif);
+            background-image: url(../../assets/images/home_banner012.png);
             background-origin: content-box;
             background-clip: content-box;
             background-position: center;
@@ -2688,3 +2710,151 @@
         section {
             overflow: hidden;
         }
+        /* Corporate Branding Services Starts*/
+        
+        #Banner.sub_services_header .banner_inner {
+            height: 230px;
+        }
+        
+        #Banner.sub_services_header .banner_inner .header_des .dashed_line {
+            bottom: 10px;
+            max-width: 100px;
+        }
+        
+        #Banner.sub_services_header p.banner_inner_parah {
+            padding: 16px 0px 16px 0px;
+            margin: 0;
+        }
+        
+        #Banner.sub_services_header .banner_inner h2 {
+            font-weight: 800;
+        }
+        
+        .dropbtn {
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+        
+        .dropdown {
+            position: relative;
+            /* display: inline-block; */
+        }
+        /* .dropdown-content:before {
+            content: '';
+            position: absolute;
+            vertical-align: middle;
+            top: -20px;
+            left: 10%;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #fff;
+            height: 20px;
+            transition: all 0.3s ease-in-out;
+        } */
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            width: 100%;
+            min-width: 260px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            margin-top: 0.2rem;
+        }
+        
+        .dropdown-content a {
+            color: #FA09A7;
+            padding: 5px 14px;
+            text-decoration: none;
+            display: block;
+            font-weight: 500;
+            text-align: left;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            font-weight: 600;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        #serviceWeOffer.corporate_brandings .serviceWe_right {
+            width: 100%;
+            height: 280px;
+            background-image: url(../../assets/images/home_banner012.png);
+            background-size: contain;
+            border: 0;
+            box-shadow: none;
+        }
+        
+        #featuredServices.branding_view {
+            background: #F5F2ED;
+            background: #e4e4e4;
+        }
+        
+        #featuredServices.branding_view .brandingView_left .offering_list {
+            border-radius: 15px;
+            border: 1.4px dashed #707070;
+            padding: 2rem 1.4rem;
+            margin-bottom: 1.5rem;
+            color: #707070;
+            background: #fff;
+            width: 100%;
+            max-width: 470px;
+        }
+        
+        #featuredServices.branding_view .brandingView_left .offering_list h5 {
+            margin-left: 0.5rem;
+            margin-bottom: 1.2rem;
+        }
+        
+        #featuredServices.branding_view .brandingView_left .offering_list ul {
+            padding-left: 10px;
+            margin: 0;
+        }
+        
+        #featuredServices.branding_view .brandingView_left .offering_list ul li {
+            padding: 0;
+            font-size: 16px;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        #featuredServices.branding_view .brandingView_left .offering_list ul li i {
+            margin-right: 0.5rem;
+            font-size: 14px;
+        }
+        
+        #featuredServices.branding_view #rotatescroll .overlay {
+            box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        #featuredServices.branding_view #rotatescroll .overview li {
+            padding: 0;
+        }
+        
+        #featuredServices.branding_view2 {
+            padding: 1.5rem 0 3rem 0;
+        }
+        
+        #featuredServices .branding_view2_row>div {
+            padding: 16px;
+        }
+        
+        #featuredServices .branding_view2_row>div img {
+            border-radius: 12px;
+            box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 15px 0px;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        #featuredServices .branding_view2_row>div img:hover {
+            box-shadow: 0 3px 25px rgba(0, 0, 0, 0.4);
+            filter: brightness(1.1);
+        }
+        /* Corporate Branding Services Ends*/
