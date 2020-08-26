@@ -458,7 +458,7 @@
         
         #Banner .banner_inner .header_des {
             position: relative;
-            margin-top: 15px;
+            margin: 16px 0;
         }
         
         #Banner .banner_inner .header_des .dashed_line {
@@ -504,6 +504,8 @@
             /* max-width: 385px; */
             padding: 10px 24px;
             padding-left: 10px;
+            border: 1px solid #fa09a7;
+            box-shadow: 0 2px 15px 0 rgb(41 41 41 / 30%);
         }
         
         .btn_getfreedemo {
@@ -740,8 +742,11 @@
         
         #ourServices .service_col_1 .service_box img.sbox01 {
             /* transform: scale(1.1) !important; */
-            margin-bottom: -1rem;
-            max-width: 190px;
+            /* margin-bottom: -1rem; */
+            /* max-width: 190px; */
+            margin: 2rem 0 0 0;
+            width: 100%;
+            max-width: 250px;
         }
         
         #ourServices .service_col_1 .service_box img.sbox02 {
@@ -750,17 +755,22 @@
             /* margin-left: 16px; */
             /* margin-bottom: 1rem; */
             /* max-width: 140px; */
+            margin-top: -2rem;
+            width: 100%;
+            max-width: 200px;
         }
         
         #ourServices .service_col_2 .service_box img.sbox03 {
+            margin-bottom: -1rem;
             width: 100%;
-            max-width: 180px !important;
+            max-width: 200px;
         }
         
         #ourServices .service_col_2 .service_box img.sbox04 {
             position: relative;
-            margin-bottom: 26px;
+            margin-bottom: 6px;
             width: 100%;
+            max-width: 200px;
             margin-top: -30px;
         }
         
@@ -773,6 +783,7 @@
         #ourServices .service_box p {
             color: #707070;
             font-size: 15px;
+            margin-bottom: 0;
         }
         
         #ourServices .service_box:hover {
@@ -1181,6 +1192,11 @@
             color: #FA09A7;
             text-align: center;
             padding: 1rem 0;
+        }
+        
+        #howItWorks .card-header img {
+            width: 100%;
+            max-width: 60px;
         }
         
         #howItWorks .card-coin .card-body h5 {
@@ -2162,6 +2178,11 @@
             padding: 0rem 0 2rem 0;
         }
         
+        #choosePack>.container-fluid {
+            width: 100%;
+            max-width: 1500px;
+        }
+        
         #choosePack .choosepack_head {
             padding: 1rem 0;
             color: #FA09A7;
@@ -2186,25 +2207,16 @@
             right: 0;
         }
         
-        .choosepack_content>div>div:nth-child(1) .pack_details {
-            /* background: #DAB81E; */
-            background: #fc9325;
+        .choosepack_content>div>div:nth-child(1) .pack_details .price_box h5 {
+            color: #C53005;
         }
         
-        .choosepack_content>div>div:nth-child(2) .pack_details {
-            /* background: #F8CA2C; */
-            /* background: #EB42CD; */
-            background: #8A1AAB;
+        .choosepack_content>div>div:nth-child(2) .pack_details .price_box h5 {
+            color: #8A1AAB;
         }
         
-        .choosepack_content>div>div:nth-child(3) .pack_details {
-            /* background: #CC2580; */
-            background: #F8CA2C;
-            background: #F9CC17;
-        }
-        
-        .choosepack_content>div>div:nth-child(4) .pack_details {
-            background: #EB42CD;
+        .choosepack_content>div>div:nth-child(3) .pack_details .price_box h5 {
+            color: #179217;
         }
         
         .choosepack_box {
@@ -2238,7 +2250,7 @@
         
         .choosepack_box .pack_details {
             padding: 1.5rem 2rem 2rem 2rem;
-            color: #fff !important;
+            /* color: #fff; */
         }
         
         .choosepack_box .pack_details .price_box {
@@ -2255,10 +2267,10 @@
         }
         
         .choosepack_box .pack_details .price_box h5 {
+            /* color: #FA09A7; */
             font-size: 36px;
             font-weight: 600;
             line-height: 30px;
-            /* color: #FA09A7; */
             position: relative;
             padding-left: 0.5rem;
             display: inline-block;
@@ -2292,6 +2304,7 @@
         
         .choosepack_box .pack_details ul li {
             margin-bottom: 0.6rem;
+            color: #000;
         }
         
         .choosepack_box .pack_details .btn_cover {
@@ -2301,20 +2314,20 @@
         
         .choosepack_box .pack_details .btn_cover .btnGetStarted {
             /* padding: 8px 25px; */
-            background: #555;
+            background: #C53005;
             color: #fff;
             transition: all 0.2s ease;
             transition: all .2s cubic-bezier(.86, 0, .07, 1);
+            width: 100%;
+            max-width: 430px;
         }
         
         .choosepack_content>div>div:nth-child(2) .pack_details .btnGetStarted {
-            background: #f8c92c;
-            color: #000;
+            background: #8A1AAB;
         }
         
         .choosepack_content>div>div:nth-child(3) .pack_details .btnGetStarted {
-            background: #000;
-            color: #fff;
+            background: #179217;
         }
         
         .choosepack_box:hover {
@@ -2327,6 +2340,30 @@
         
         .choosepack_box:hover .packbox_head {
             background: #FA09A7;
+        }
+        
+        .choosepack_content>div>div:nth-child(1) .choosepack_box:hover .packbox_head {
+            background: #C53005;
+        }
+        
+        .choosepack_content>div>div:nth-child(2) .choosepack_box:hover .packbox_head {
+            background: #8A1AAB;
+        }
+        
+        .choosepack_content>div>div:nth-child(3) .choosepack_box:hover .packbox_head {
+            background: #179217;
+        }
+        
+        .choosepack_content>div>div:nth-child(1) .choosepack_box .pack_details h5 {
+            color: #C53005;
+        }
+        
+        .choosepack_content>div>div:nth-child(2) .choosepack_box .pack_details h5 {
+            color: #8A1AAB;
+        }
+        
+        .choosepack_content>div>div:nth-child(3) .choosepack_box .pack_details h5 {
+            color: #179217;
         }
         
         .choosepack_box:hover .packbox_head h4 {
@@ -2346,15 +2383,15 @@
         }
         
         .choosepack_content>div>div:nth-child(1) .pack_details ul li i {
-            color: #555;
+            color: #C53005;
         }
         
         .choosepack_content>div>div:nth-child(2) .pack_details ul li i {
-            color: #f8ca2c;
+            color: #8A1AAB;
         }
         
         .choosepack_content>div>div:nth-child(3) .pack_details ul li i {
-            color: #000;
+            color: #179217;
         }
         /* //Choose Pack Ends*/
         /* PRICING PAGE CSS Starts*/
@@ -2717,7 +2754,7 @@
         }
         
         #Banner.sub_services_header .banner_inner .header_des .dashed_line {
-            bottom: 10px;
+            top: 12px;
             max-width: 100px;
         }
         
@@ -2795,6 +2832,14 @@
         #featuredServices.branding_view {
             background: #F5F2ED;
             background: #e4e4e4;
+            padding: 1rem 0;
+        }
+        
+        #featuredServices.branding_view .brandingView_left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
         }
         
         #featuredServices.branding_view .brandingView_left .offering_list {
@@ -2856,5 +2901,72 @@
         #featuredServices .branding_view2_row>div img:hover {
             box-shadow: 0 3px 25px rgba(0, 0, 0, 0.4);
             filter: brightness(1.1);
+        }
+        
+        #exlporeServices.explore_subservices {
+            background: #fff;
+        }
+        
+        #exlporeServices.explore_subservices .expScard {
+            border-radius: 6px;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            margin: 1rem 0;
+            position: relative;
+        }
+        
+        #exlporeServices.explore_subservices .expScard img {
+            display: inline-block;
+            width: 100%;
+            max-width: 45px;
+            position: absolute;
+            top: 1.6rem;
+        }
+        
+        #exlporeServices.explore_subservices .expScard h4 {
+            margin-left: 3.8rem;
+            font-size: 1.2rem;
+        }
+        
+        #exlporeServices.explore_subservices .expScard p {
+            width: 80%;
+            margin-left: 4.4rem
+        }
+        
+        #exlporeServices.explore_subservices .expScard i {
+            transition: all 0.3s ease-in-out;
+            visibility: hidden;
+            transform: translateX(-10px);
+            position: absolute;
+            top: 40%;
+            font-size: 24px;
+            right: 2.5rem;
+            color: #fa09a7;
+        }
+        
+        #exlporeServices.explore_subservices .expScard:hover i {
+            visibility: visible;
+            transform: translateX(10px);
+        }
+        
+        #exlporeServices.explore_subservices .expScard:hover {
+            box-shadow: 0 0px 18px rgba(0, 0, 0, 0.3);
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fa09a7+0,f773cb+48,ffffff+100 */
+            background: rgb(250, 9, 167);
+            /* Old browsers */
+            background: -moz-linear-gradient(left, rgba(250, 9, 167, 1) 0%, rgba(247, 115, 203, 1) 48%, rgba(255, 255, 255, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(250, 9, 167, 1) 0%, rgba(247, 115, 203, 1) 48%, rgba(255, 255, 255, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(250, 9, 167, 1) 0%, rgba(247, 115, 203, 1) 48%, rgba(255, 255, 255, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa09a7', endColorstr='#ffffff', GradientType=1);
+            /* IE6-9 */
+        }
+        
+        #exlporeServices.explore_subservices .expScard:hover h4,
+        #exlporeServices.explore_subservices .expScard:hover p {
+            color: #fff;
         }
         /* Corporate Branding Services Ends*/

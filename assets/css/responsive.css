@@ -171,6 +171,13 @@
                     #Brands {
                         padding: 3rem 0 2rem 0;
                     }
+                    #Banner .banner_inner .ellipse01 {
+                        max-width: 40px;
+                    }
+                    #Banner .banner_inner .dots01,
+                    #Banner .banner_inner .dots02 {
+                        max-width: 80px;
+                    }
                     #Brands .brands_content {
                         padding: 2rem 0.5rem;
                     }
@@ -249,6 +256,11 @@
                         transform: scale(0.8);
                     }
                     /* //Services Page */
+                    /* //Sub Services Page */
+                    #Banner.sub_services_header {
+                        padding-top: 90px;
+                    }
+                    /* //Sub Services Page */
                 }
                 
                 @media only screen and (max-width: 477px) {
@@ -260,6 +272,7 @@
                         bottom: -11%;
                         left: -28%;
                         z-index: 2;
+                        animation: unset;
                     }
                     #ourServices .service_col_content {
                         padding: 0% 1rem 0px;
