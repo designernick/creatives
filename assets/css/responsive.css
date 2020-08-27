@@ -347,6 +347,22 @@
                         padding: 0 0rem;
                     }
                     /* //Services Page Ends*/
+                    /* //ContactUs Page Starts*/
+                    #Contactus .contact_left .address_box ul {
+                        padding-left: 0.5rem;
+                    }
+                    /* //ContactUs Page Ends*/
                 }
                 
-                @media only screen and (max-width: 360px) {}
+                @media only screen and (max-width: 360px) {
+                    #Contactus>div>.row,
+                    #Contactus>div>.row>div {
+                        padding: 0 !important;
+                    }
+                    #Contactus .contact_left .address_box {
+                        padding-left: 0.8rem;
+                    }
+                    #Contactus .contact_left .address_box ul {
+                        padding-left: 0rem;
+                    }
+                }

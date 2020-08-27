@@ -888,95 +888,6 @@
                     margin-left: 0.6rem;
                 }
                 /* OUR SERVICES Ends */
-                /* Quality Work Starts */
-                /* #qualityWork {
-        padding: 3rem 0 0rem 0;
-    }
-    
-    #qualityWork .quality_head h2 {
-        color: #FA09A7;
-        padding: 1rem 0;
-    }
-    
-    #qualityWork .quality_head p {
-        color: #707070;
-    }
-    
-    #qualityWork #v-pills-tab_category {
-        margin-top: 1rem;
-        padding: 2rem 3rem;
-        background: #fff;
-        border-radius: 0 15px 15px 0;
-        box-shadow: 0 15px 30px 0 rgb(142 142 142 / 42%);
-        position: absolute;
-        border-left: 3px solid #7070706e;
-    }
-    
-    #qualityWork #v-pills-tab_category .nav-link {
-        color: #707070;
-        border: 1.5px dashed #fff;
-    }
-    
-    #qualityWork #v-pills-tab_category .nav-link.active,
-    #qualityWork #v-pills-tab_category .show>.nav-link {
-        color: #FA09A7;
-        background-color: #fff;
-        width: 100%;
-        max-width: 190px;
-        font-weight: 600;
-        border: 1.5px dashed #FA09A7;
-    }
-    
-    #qualityWork .quality_work_slider {
-        margin: 0 auto;
-    }
-    
-    #qualityWork .quality_work_slider .carousel-inner {
-        min-height: 570px;
-    }
-    
-    #qualityWork .quality_work_slider .carousel-item {
-        width: 100%;
-        height: 400px !important;
-        margin: 2rem 0;
-    }
-    
-    #qualityWork .quality_work_slider .carousel-control-next-icon {
-        background-image: url(../img/arrow_next.png);
-        margin-left: 50px;
-        position: absolute;
-        z-index: 99;
-        transition: all 0.2s ease-in;
-    }
-    
-    #qualityWork .quality_work_slider .carousel-control-next:hover .carousel-control-next-icon {
-        margin-left: 75px;
-    }
-    
-    #qualityWork .quality_work_slider .carousel-control-prev-icon {
-        background-image: url(../img/arrow_prev.png);
-        margin-right: 50px;
-        position: absolute;
-        z-index: 99;
-        transition: all 0.2s ease-in;
-    }
-    
-    #qualityWork .quality_work_slider .carousel-control-prev:hover .carousel-control-prev-icon {
-        margin-right: 75px;
-    }
-    
-    #qualityWork .quality_work_slider .carousel-item img {
-        width: 100%;
-        max-width: 410px;
-        margin: 0 auto;
-        justify-content: center;
-        object-fit: contain;
-        height: 100%;
-        box-shadow: 0 15px 30px 0 rgb(142 142 142 / 42%);
-        border-radius: 15px;
-        min-height: 470px;
-    } */
-                /* Quality Work Ends */
                 /* See More Work Starts */
                 
                 #seeMoreWork {
@@ -2729,8 +2640,14 @@
                     background: #e4e4e4;
                 }
                 
+                #exlporeServices .container-fluid {
+                    width: 100%;
+                    max-width: 1500px;
+                }
+                
                 #exlporeServices .expScard {
                     padding: 1.3rem 1rem 0.5rem;
+                    margin: 1rem 0;
                     transition: all 0.2s ease-in-out;
                 }
                 
@@ -2741,15 +2658,27 @@
                     border-radius: 10px;
                 }
                 
+                .expScard img {
+                    width: 100%;
+                    max-width: 50px;
+                    float: left;
+                }
+                
                 #exlporeServices .expScard h4 {
                     font-size: 22px;
                     color: #FA09A7;
                     font-weight: 600;
+                    margin-left: 4.5rem;
                 }
                 
                 #exlporeServices .expScard p {
                     margin-left: 1rem;
                     color: #555;
+                    margin-left: 4.5rem;
+                }
+                
+                #exlporeServices .expSbox1 {
+                    padding: 0 1rem 0 0;
                 }
                 
                 #exlporeServices .expSbox2 .expScard_img {
@@ -2774,7 +2703,7 @@
                 }
                 
                 #exlporeServices .expSbox3 {
-                    padding: 0 1rem;
+                    padding: 0 0 0 1rem;
                 }
                 /* exlpore servies */
                 /* Services We Offer Ends*/
