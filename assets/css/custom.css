@@ -2869,22 +2869,22 @@
                     padding: 0;
                 }
                 
-                #featuredServices.branding_view2 {
+                #featuredServices2.branding_view2 {
                     padding: 1.5rem 0 3rem 0;
                 }
                 
-                #featuredServices .branding_view2_row>div {
+                #featuredServices2 .branding_view2_row>div {
                     padding: 16px;
                 }
                 
-                #featuredServices .branding_view2_row>div img {
+                #featuredServices2 .branding_view2_row>div img {
                     border-radius: 12px;
                     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
                     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 15px 0px;
                     transition: all 0.3s ease-in-out;
                 }
                 
-                #featuredServices .branding_view2_row>div img:hover {
+                #featuredServices2 .branding_view2_row>div img:hover {
                     box-shadow: 0 3px 25px rgba(0, 0, 0, 0.4);
                     filter: brightness(1.1);
                 }
