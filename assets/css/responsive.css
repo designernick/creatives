@@ -6,23 +6,17 @@
                         padding-right: 1.5rem;
                     }
                     li.nav-item:last-child {
-                        padding-bottom: 2rem;
+                        margin-bottom: 2rem;
                     }
-                    /* #ourServices .ourService_outer .service_col_2 {
-                        padding: 0% 1rem;
+                    ul.navbar-nav li {
+                        display: inline-block;
+                        justify-content: center;
                     }
-                    #ourServices .service_col_content {
-                        padding: 0% 1rem 0px;
+                    .dropdown-menu {
+                        width: 100%;
+                        max-width: 300px;
+                        margin: 0 auto;
                     }
-                    #qualityWork #v-pills-tab_category {
-                        padding: 1rem 1rem;
-                    }
-                    #qualityWork .quality_work_slider .carousel-control-next-icon {
-                        margin-left: 70px;
-                    }
-                    #qualityWork .quality_work_slider .carousel-control-prev-icon {
-                        margin-right: 70px;
-                    } */
                     #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
                     #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
                         width: unset;
