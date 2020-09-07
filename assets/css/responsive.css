@@ -129,10 +129,17 @@
                         top: -15px !important;
                         transform: scale(1.05) !important;
                     }
+                    #footer {
+                        padding: 5rem 0 1rem 0 !important;
+                    }
                     /* //common */
                     /* //Contact Us Page */
                     #Banner.contactus_page .header_right_imgcover img {
                         transform: scale(1.2) !important;
+                    }
+                    .working-hours .row.border-right {
+                        border-right: 0 !important;
+                        border-bottom: 1px solid #dee2e6 !important;
                     }
                     /* //Contact Us Page */
                     /* //Services Page */
@@ -232,6 +239,19 @@
                         right: 0px;
                     }
                     /* //Portfolio Page */
+                    /* //Contact US Page */
+                    #SubscribeNEW .row.subscribe_bg>div:last-child {
+                        padding-left: 0 !important;
+                    }
+                    #SubscribeNEW .subscribe_cover input {
+                        display: inline-block;
+                        position: relative;
+                        width: 100%;
+                        height: 54px;
+                        padding: 14px 8px;
+                        padding-left: 14px;
+                    }
+                    /* //Contact US Page */
                     /* //Services Page */
                     #serviceWeOffer .serviceWe_left p {
                         padding: 0 1rem;
