@@ -18,3 +18,8 @@ $("#v-pills-tab_seeMoreWork").removeClass("flex-column");
 function myFunction(x) {
     x.classList.toggle("change");
 }
+
+// init js for lozad
+const observer = lozad();
+observer.observe();
+// init js for lozad

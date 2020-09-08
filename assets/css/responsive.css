@@ -77,9 +77,52 @@
                     /* #qualityWork #v-pills-tab_category {
                         display: contents;
                     } */
-                    #howItWorks .card-pricing.card-coin {
-                        min-height: 320px;
+                    /* //how it works new starts */
+                    #howItWorks .howitStep.step01 .hIWstepLeftCover,
+                    #howItWorks .howitStep.step03 .hIWstepLeftCover {
+                        justify-content: center;
                     }
+                    #howItWorks .howitStep.step02 .hIWstepRightCover,
+                    #howItWorks .howitStep.step04 .hIWstepRightCover {
+                        justify-content: center;
+                    }
+                    #howItWorks .howitStep.step02 .hIWstepLeftCover,
+                    #howItWorks .howitStep.step04 .hIWstepLeftCover {
+                        text-align: left;
+                    }
+                    #howItWorks .howitStep.step02 .step_card,
+                    #howItWorks .howitStep.step04 .step_card {
+                        float: none;
+                    }
+                    #howItWorks .row.howitStep .step_card {
+                        margin: 0;
+                        margin-bottom: 2rem;
+                    }
+                    #howItWorks .howitStep>div {
+                        margin: 0 auto !important;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: center;
+                        justify-items: center;
+                        display: flex;
+                    }
+                    #howItWorks .workflow_line {
+                        max-width: 3px;
+                        top: 10%;
+                    }
+                    #howItWorks .howitStep.step02>div:first-child {
+                        order: 1;
+                    }
+                    #howItWorks .howitStep.step04>div:first-child {
+                        order: 1;
+                    }
+                    #howItWorks .howitStep>div {
+                        border: none !important;
+                    }
+                    #howItWorks .howitStep:hover>div {
+                        border: none !important;
+                    }
+                    /* //how it works new ends */
                     #seeMoreWork #v-pills-tab_seeMoreWork {
                         padding: 0rem 0;
                     }

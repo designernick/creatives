@@ -1099,10 +1099,21 @@
             width: 100%;
         } */
                 /* See More Work Ends */
-                /* How It Works Starts */
+                /* How It Works New Starts */
                 
                 #howItWorks {
                     padding: 2rem 0;
+                    position: relative;
+                }
+                
+                #howItWorks .workflow_line {
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    width: 100%;
+                    max-width: 3px;
+                    top: 12.1%;
+                    margin: 0 auto;
                 }
                 
                 #howItWorks .howitwork_head h2 {
@@ -1111,121 +1122,128 @@
                     padding: 1rem 0;
                 }
                 
-                #howItWorks .card-header img {
+                #howItWorks .row img {
                     width: 100%;
-                    max-width: 60px;
+                    max-width: 120px;
+                    padding: .6rem;
                 }
                 
-                #howItWorks .card-coin .card-body h5 {
-                    color: #fff;
+                #howItWorks .row.howitStep h4 {
+                    color: #FA09A7;
+                    font-size: 1.3rem;
                     font-weight: 600;
+                    transition: all 0.3s ease-in-out;
                 }
                 
-                #howItWorks .card-coin .card-body span {
-                    font-weight: 700;
-                    font-size: 2rem;
-                }
-                
-                #howItWorks .card-coin .card-body {
+                #howItWorks .row.howitStep .step_card {
                     background: #fff;
-                    color: #fff;
                     border-radius: 10px;
-                    border: 1px solid #ddd;
-                    box-shadow: 0 7px 21px 0 rgba(0, 0, 0, .1);
-                }
-                
-                #howItWorks .card-coin {
-                    margin-top: 75px;
-                    min-height: 400px;
-                    border: 0;
                     position: relative;
+                    box-shadow: 0 7px 21px 0 rgba(0, 0, 0, .1);
+                    width: 100%;
+                    max-width: 400px;
+                    padding: 1.2rem 1.8rem 0.6rem 1.8rem;
+                    margin: 1rem 1rem;
                     cursor: pointer;
+                    transition: all 0.3s ease-in-out;
                 }
                 
-                #howItWorks .howitwork_row>div:nth-child(1) .card-body {
-                    /* background: #DAB81E; */
-                    /* background: #E69110; */
+                #howItWorks .row.howitStep .step_card .indicator {
+                    position: absolute;
+                    left: -1.1rem;
+                    top: 38%;
+                    padding: 0.1rem;
+                    background: #fff;
+                    color: #FA09A7;
+                    border-radius: 50%;
+                    width: 38px;
+                    height: 38px;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: inset 0px 0px 8px 2px rgb(0 0 0 / 13%), 0 8px 10px 0 rgba(0, 0, 0, .2);
+                }
+                
+                #howItWorks .howitStep.step02 .hIWstepLeftCover,
+                #howItWorks .howitStep.step04 .hIWstepLeftCover {
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    text-align: right;
+                }
+                
+                #howItWorks .howitStep.step01 .hIWstepLeftCover,
+                #howItWorks .howitStep.step03 .hIWstepLeftCover {
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+                
+                #howItWorks .howitStep.step02 .hIWstepRightCover,
+                #howItWorks .howitStep.step04 .hIWstepRightCover {
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+                
+                #howItWorks .howitStep.step01:hover .step_card {
+                    color: #fff;
                     background: #DE780E;
                 }
                 
-                #howItWorks .howitwork_row>div:nth-child(2) .card-body {
-                    /* background: #F8CA2C; */
-                    /* background: #e038b1; */
+                #howItWorks .howitStep.step02:hover .step_card {
+                    color: #fff;
                     background: #C53005;
                 }
                 
-                #howItWorks .howitwork_row>div:nth-child(3) .card-body {
-                    /* background: #CC2580; */
-                    /* background: #F8CA2C; */
+                #howItWorks .howitStep.step03:hover .step_card {
+                    color: #fff;
                     background: #F9CC17;
                 }
                 
-                #howItWorks .howitwork_row>div:nth-child(4) .card-body {
-                    /* background: #EB42CD; */
+                #howItWorks .howitStep.step04:hover .step_card {
+                    color: #fff;
                     background: #8A1AAB;
                 }
                 
-                #howItWorks .card-coin .indicator {
-                    position: absolute;
-                    padding: 12px;
-                    width: 45px;
-                    height: 45px;
-                    border-radius: 50px;
-                    background: #fff;
-                    right: -28px;
-                    z-index: 100;
-                    display: flex;
-                    justify-content: center;
-                    top: 45%;
-                    border: 1px solid #55555521;
-                    transition: all 0.3s ease;
-                    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+                #howItWorks .howitStep:hover .step_card h4 {
+                    color: #fff;
                 }
                 
-                #howItWorks .card-coin .indicator i {
-                    color: #555;
-                    font-size: 20px;
-                    transition: all 0.1s ease-in-out;
+                #howItWorks .howitStep>div {
+                    transition: all 0.2s ease-in-out;
                 }
                 
-                #howItWorks .card-coin:hover .indicator {
-                    /* background: #ddd; */
-                    background: rgb(241, 241, 241);
-                    box-shadow: 0 0px 18px rgba(0, 0, 0, 0.3);
+                #howItWorks .howitStep>div:first-child {
+                    border-right: 5px solid transparent;
                 }
                 
-                #howItWorks .card-coin:hover .indicator i {
-                    transform: scale(1.2);
+                #howItWorks .howitStep>div:last-child {
+                    border-left: 5px solid transparent;
                 }
                 
-                #howItWorks .card-coin .card-header {
-                    margin: -50px auto 0px;
-                    border-bottom: none;
-                    background: transparent;
+                #howItWorks .howitStep.step01:hover>div:last-child {
+                    border-left: 5px solid #DE780E;
                 }
                 
-                #howItWorks .card-coin hr {
-                    width: 55%;
-                    margin: 15px auto;
-                    height: 1px;
-                    border-radius: 3px;
+                #howItWorks .howitStep.step02:hover>div:first-child {
+                    border-right: 5px solid #C53005;
                 }
                 
-                #howItWorks .bg-info {
-                    background-color: #424242eb !important;
+                #howItWorks .howitStep.step03:hover>div:last-child {
+                    border-left: 5px solid #F9CC17;
                 }
                 
-                #howItWorks .card-coin .list-group {
-                    margin: 0 auto;
-                    text-align: left;
+                #howItWorks .howitStep.step04:hover>div:first-child {
+                    border-right: 5px solid #8A1AAB;
                 }
-                
-                #howItWorks .card-coin .list-group .list-group-item {
-                    background-color: transparent;
-                    border: none;
-                    padding: .4rem 1rem;
-                }
-                /* How It Works Ends */
+                /* How It Works New Ends */
                 /* Join Us Starts */
                 
                 #joinUs {
@@ -1759,10 +1777,25 @@
                 
                 .contact_footer li i {
                     margin-right: 0.4rem;
+                    color: #fff;
                 }
                 
                 .contact_footer li {
                     padding: 0.2rem 0;
+                }
+                
+                .contact_footer li a {
+                    color: #fff;
+                    transition: all 0.3s ease-in-out;
+                }
+                
+                .contact_footer li a:hover {
+                    margin-left: 0.3rem;
+                    color: #fa09a7;
+                }
+                
+                .contact_footer li a:hover i {
+                    color: #fff;
                 }
                 
                 .payment_card li {
@@ -2948,7 +2981,6 @@
                     text-align: center;
                     border-radius: 12px;
                     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-                    cursor: pointer;
                     transition: all 0.3s ease-in-out;
                 }
                 
@@ -2983,6 +3015,21 @@
                     text-align: center;
                     width: 100%;
                     line-height: 28px;
+                }
+                
+                .lr p a {
+                    color: #fff;
+                    cursor: pointer;
+                    transition: all 0.2s ease-in-out;
+                }
+                
+                .lr p a:hover {
+                    font-size: 1.08rem;
+                    letter-spacing: 1px;
+                }
+                
+                .mid {
+                    cursor: pointer;
                 }
                 
                 .mid h2 {
@@ -3044,9 +3091,16 @@
                     padding: 1rem 0.2rem;
                 }
                 
+                .working-hours .inner_hours .support_head {
+                    font-size: 18px;
+                    display: block;
+                    margin-bottom: 0.6rem;
+                    font-weight: 600;
+                }
+                
                 span.day,
                 .ft16 {
-                    font-size: 18px;
+                    font-size: 16px;
                     display: block;
                     font-weight: 400;
                     line-height: 1.5;
