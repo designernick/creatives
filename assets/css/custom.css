@@ -3693,7 +3693,7 @@
                 }
                 
                 #exlporeServices.explore_subservices .expScard:hover {
-                    box-shadow: 0 0px 18px rgba(0, 0, 0, 0.3);
+                    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
                     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fa09a7+0,f773cb+48,ffffff+100 */
                     background: rgb(250, 9, 167);
                     /* Old browsers */
@@ -3705,6 +3705,8 @@
                     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa09a7', endColorstr='#ffffff', GradientType=1);
                     /* IE6-9 */
+                    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(250, 9, 167, 1) 20%, rgba(247, 115, 203, 1) 70%, rgba(255, 255, 255, 1) 100%);
+                    box-shadow: 0 -20px 15px -10px rgb(92 92 92 / 41%) inset, 0 20px 15px -10px rgb(91 91 91 / 30%) inset, 0 0 10px rgba(0, 0, 0, 0.1);
                 }
                 
                 #exlporeServices.explore_subservices .expScard:hover h4,
