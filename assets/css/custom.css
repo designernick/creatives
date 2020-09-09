@@ -2098,7 +2098,7 @@
                 
                 ul#pills-tab_PC .nav-link.active,
                 ul#pills-tab_PC .show>.nav-link {
-                    color: #FA09A7;
+                    color: #212121 !important;
                     background: #ffffff;
                     border-bottom: 1.5px dashed #FA09A7;
                     border-radius: 0;

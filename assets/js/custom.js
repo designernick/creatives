@@ -23,3 +23,8 @@ function myFunction(x) {
 const observer = lozad();
 observer.observe();
 // init js for lozad
+
+//Our Quality Work on hover working
+$('#v-pills-tab_seeMoreWork > a').hover(function() {
+    $(this).tab('show');
+});
