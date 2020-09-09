@@ -45,6 +45,17 @@
                         padding: 0.5rem 0;
                     }
                     /* //Portfolio Page */
+                    /* //Contact us Page */
+                    .contact_us_social_icon.qrcode_box {
+                        min-height: 102px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back {
+                        padding: 10px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back img.WAqrcode {
+                        max-width: 90px;
+                    }
+                    /* //Contact us Page */
                 }
                 
                 @media only screen and (max-width: 768px) {
@@ -183,6 +194,15 @@
                     .working-hours .row.border-right {
                         border-right: 0 !important;
                         border-bottom: 1px solid #dee2e6 !important;
+                    }
+                    .contact_us_social_icon.qrcode_box {
+                        min-height: 102px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back {
+                        padding: 5px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back img.WAqrcode {
+                        max-width: 90px;
                     }
                     /* //Contact Us Page */
                     /* //Services Page */

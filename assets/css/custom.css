@@ -2883,16 +2883,17 @@
                     left: 0;
                 }
                 
-                #Contactus .contactus_head {
+                .contactus_content .contactus_head {
                     color: #fa09a7;
-                    text-align: center;
                     background: #fff;
                     border-radius: 10px 10px 0 0;
                     padding: 1rem 0;
+                    width: 100%;
                 }
                 
-                #Contactus .contactus_head h2 {
+                .contactus_content .contactus_head h2 {
                     margin: 0;
+                    text-align: center;
                 }
                 
                 #Contactus .contact_left .address_box {
@@ -3145,6 +3146,7 @@
                     margin: 0;
                     height: auto;
                     min-height: 102px;
+                    margin-bottom: 1.6rem;
                 }
                 
                 .flip-box {
@@ -3153,10 +3155,26 @@
                     height: auto;
                     border: 1px solid rgba(0, 0, 0, 0.08);
                     perspective: 1000px;
-                    min-height: 300px;
+                    /* min-height: 300px; */
                     margin: 15px 0;
                     overflow: hidden;
                     box-shadow: 0 10px 25px 0 rgb(142 142 142 / 40%);
+                }
+                
+                .contact_us_social_icon .flip-box-back.qrcode_back {
+                    padding: 10px;
+                    display: flex;
+                    justify-content: center;
+                    height: 100%;
+                    align-items: center;
+                    align-content: center;
+                    justify-items: center;
+                    flex-direction: column;
+                }
+                
+                .contact_us_social_icon .flip-box-back.qrcode_back img.WAqrcode {
+                    width: 100%;
+                    max-width: 300px;
                 }
                 
                 .flip-box-inner {
@@ -3229,6 +3247,15 @@
                     height: auto;
                     min-height: 100px;
                     font-weight: 600;
+                }
+                
+                .contact_us_social_icon .flip-box-back.qrcode_back {
+                    padding: 10px 35px;
+                }
+                
+                .contact_us_social_icon .flip-box-back.qrcode_back img.WAqrcode {
+                    width: 100%;
+                    max-width: 200px;
                 }
                 
                 .flip-box-back p {
