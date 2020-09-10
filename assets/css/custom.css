@@ -2870,6 +2870,7 @@
                 
                 #Contactus {
                     padding: 2.5rem 0;
+                    padding-bottom: 0.5rem;
                     background: #fff;
                     position: relative;
                     width: 100%;
@@ -2941,6 +2942,7 @@
                     background: #fff;
                     border-radius: 12px;
                     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+                    margin-bottom: 40px;
                 }
                 
                 #Contactus .contactus_content .form-row .form-group {
@@ -2975,7 +2977,7 @@
                     background-position: center;
                     width: 100%;
                     height: 305px;
-                    margin-bottom: 0px;
+                    margin-bottom: 40px;
                     position: relative;
                     float: left;
                     color: #fff;
@@ -3009,7 +3011,7 @@
                 .lr p {
                     font-family: 'Roboto', sans-serif;
                     position: absolute;
-                    bottom: 70px;
+                    bottom: 50px;
                     left: 0px;
                     color: white;
                     margin: 0;
@@ -3117,6 +3119,7 @@
                 
                 .social-media-box {
                     padding: 50px 0;
+                    padding-bottom: 20px;
                     text-align: center;
                 }
                 

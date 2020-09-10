@@ -191,6 +191,9 @@
                     #Banner.contactus_page .header_right_imgcover img {
                         transform: scale(1.2) !important;
                     }
+                    .contact_wrp>.row>div {
+                        padding-right: 0px;
+                    }
                     .working-hours .row.border-right {
                         border-right: 0 !important;
                         border-bottom: 1px solid #dee2e6 !important;
