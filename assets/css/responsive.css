@@ -17,6 +17,12 @@
                         max-width: 300px;
                         margin: 0 auto;
                     }
+                    #ourServices .service_col_content {
+                        padding: 0% 1rem 0px;
+                    }
+                    #ourServices .ourService_outer .service_col_2 {
+                        padding: 0% 1rem;
+                    }
                     #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
                     #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
                         width: unset;
@@ -56,6 +62,11 @@
                         max-width: 90px;
                     }
                     /* //Contact us Page */
+                    /* //Inner Services Page */
+                    #exlporeServices .expSbox3 {
+                        padding: 0 0 0 0rem;
+                    }
+                    /* //Inner Services Page */
                 }
                 
                 @media only screen and (max-width: 768px) {

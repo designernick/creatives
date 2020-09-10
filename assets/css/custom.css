@@ -40,6 +40,11 @@
                     height: auto;
                 }
                 
+                .container-fluid {
+                    width: 100%;
+                    max-width: 1500px;
+                }
+                
                 * ul li,
                 a {
                     text-decoration: none;
@@ -532,9 +537,9 @@
                     width: 100%;
                     position: absolute;
                     max-width: 700px;
-                    right: -75px;
+                    right: 10px;
                     top: 85px;
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
                 /* Header Ends */
                 /* BRANDS Starts */
@@ -1247,7 +1252,7 @@
                 /* Join Us Starts */
                 
                 #joinUs {
-                    padding: 3.5rem 0;
+                    padding: 2.6rem 0;
                     color: #fff;
                     background: #FA09A7;
                     text-align: center;
@@ -1964,8 +1969,8 @@
                 #Banner.portfolio_page .header_right_imgcover img {
                     width: 100%;
                     position: absolute;
-                    max-width: 375px !important;
-                    right: -40px;
+                    max-width: 415px !important;
+                    right: 20px;
                     top: 40px;
                 }
                 
@@ -2184,6 +2189,7 @@
                 .featured_right img {
                     position: relative;
                     width: 100%;
+                    max-width: 520px;
                     /* max-width: 280px; */
                     /* box-shadow: rgb(0 0 0 / 18%) 0px 2px 18px 0px; */
                     border-radius: 10px;
@@ -2228,7 +2234,7 @@
                 /* //Featured WebMockups Ends*/
                 
                 #Subscribe {
-                    padding: 3.5rem 0;
+                    padding: 2.5rem 0;
                     color: #FA09A7;
                     background: #F6F7FB;
                     text-align: center;
@@ -2497,8 +2503,8 @@
                 #Banner.pricing_page .header_right_imgcover img {
                     width: 100%;
                     position: absolute;
-                    max-width: 380px !important;
-                    right: -40px;
+                    max-width: 400px !important;
+                    right: 30px;
                     top: 40px;
                     z-index: 6;
                 }
@@ -2602,7 +2608,8 @@
                     line-height: 30px;
                     position: relative;
                     padding-left: 0.5rem;
-                    display: inline-block;
+                    /* display: inline-block; */
+                    display: inline-flex;
                 }
                 
                 .choosepack_box .pack_details .price_box h5 i {
@@ -2738,8 +2745,8 @@
                 #Banner.faq_page .header_right_imgcover img {
                     width: 100%;
                     position: absolute;
-                    max-width: 700px;
-                    right: -80px;
+                    max-width: 420px !important;
+                    right: 20px;
                     top: 20px;
                     transform: scale(1.0);
                 }
@@ -3075,7 +3082,6 @@
                     background: #fa09a7;
                     border-radius: 8px;
                     margin: 0 auto;
-                    max-width: 1300px;
                     box-shadow: 0 15px 30px 0 rgb(142 142 142 / 42%);
                 }
                 
@@ -3253,7 +3259,7 @@
                 }
                 
                 .contact_us_social_icon .flip-box-back.qrcode_back {
-                    padding: 10px 35px;
+                    padding: 10px 48px;
                 }
                 
                 .contact_us_social_icon .flip-box-back.qrcode_back img.WAqrcode {
@@ -3325,7 +3331,7 @@
                     width: 100%;
                     position: absolute;
                     max-width: 530px !important;
-                    right: -80px;
+                    right: 20px;
                     top: 40px;
                 }
                 
